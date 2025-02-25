@@ -4,17 +4,29 @@
   
     
     <entry>
-      <title>轮播页</title>
-      <link href="/2025/02/25/%E8%BD%AE%E6%92%AD%E9%A1%B5/"/>
-      <url>/2025/02/25/%E8%BD%AE%E6%92%AD%E9%A1%B5/</url>
+      <title>今天的记录</title>
+      <link href="/2025/02/25/%E5%9F%BA%E6%9C%AC%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/"/>
+      <url>/2025/02/25/%E5%9F%BA%E6%9C%AC%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="今天的记录-文章主标题"><a href="#今天的记录-文章主标题" class="headerlink" title="今天的记录  # 文章主标题"></a>今天的记录  # 文章主标题</h1><h2 id="早晨-小标题，用于区分不同时间段或内容部分"><a href="#早晨-小标题，用于区分不同时间段或内容部分" class="headerlink" title="早晨  # 小标题，用于区分不同时间段或内容部分"></a>早晨  # 小标题，用于区分不同时间段或内容部分</h2><p>今天早上起得比较早，阳光明媚。吃了简单的早餐：一杯牛奶和一块吐司。</p><p><img src="https://example.com/breakfast.jpg" alt="早餐">  # 插入早餐图片，Markdown语法：<img src="图片URL" alt="图片描述"></p><p>早晨的阳光透过窗帘洒进来，感觉一切都充满活力。</p><h2 id="上午-另一部分的小标题"><a href="#上午-另一部分的小标题" class="headerlink" title="上午  # 另一部分的小标题"></a>上午  # 另一部分的小标题</h2><p>上午的工作比较顺利，整理了几个项目文件。还和同事讨论了接下来的任务计划。</p><h3 id="项目进展-更细化的小标题，适用于深入描述某一主题"><a href="#项目进展-更细化的小标题，适用于深入描述某一主题" class="headerlink" title="项目进展  # 更细化的小标题，适用于深入描述某一主题"></a>项目进展  # 更细化的小标题，适用于深入描述某一主题</h3><p>我们在一个新的项目上取得了一些进展，虽然还有许多挑战，但相信很快就能解决。</p><h2 id="下午-下午的记录"><a href="#下午-下午的记录" class="headerlink" title="下午  # 下午的记录"></a>下午  # 下午的记录</h2><p>午餐是外卖的牛肉面，虽然不如自己做的好，但还是挺满意的。</p><p><img src="https://example.com/lunch.jpg" alt="午餐">  # 插入午餐图片</p><p>下午去了公园散步，和朋友聊了很多，放松了心情。</p><h2 id="晚上-晚上的记录"><a href="#晚上-晚上的记录" class="headerlink" title="晚上  # 晚上的记录"></a>晚上  # 晚上的记录</h2><p>晚餐做了简单的炒菜：西红柿炒蛋和青椒炒牛肉。吃完后，休息了一下，看了一会儿书。</p><hr><h2 id="总结-总结部分，回顾一天的活动和感受"><a href="#总结-总结部分，回顾一天的活动和感受" class="headerlink" title="总结  # 总结部分，回顾一天的活动和感受"></a>总结  # 总结部分，回顾一天的活动和感受</h2><p>今天是平凡的一天，但也很充实。做了一些事情，也享受了放松的时光。</p><div class="gallery-group-main"><figure class="gallery-group">    <img class="gallery-group-img no-lightbox" src='https://q4.itc.cn/q_70/images01/20240301/e1aa6b95fa2944e682e9cfb3c2bf681c.jpeg' alt="Group Image Gallery">    <figcaption>      <div class="gallery-group-name">Beijing</div>      <p>收藏的一些壁纸</p>      <a href='/gallery/sub_gallery/%E5%8C%97%E4%BA%AC'></a>    </figcaption>  </figure><figure class="gallery-group">    <img class="gallery-group-img no-lightbox" src='/uploads/007.jpg' alt="Group Image Gallery">    <figcaption>      <div class="gallery-group-name">Nankai University</div>      <p>一些南开景色照片</p>      <a href='/gallery/sub_gallery/%E5%8D%97%E5%BC%80'></a>    </figcaption>  </figure></div><hr><h1 id="相关文章-相关文章部分，便于读者查看更多相关内容"><a href="#相关文章-相关文章部分，便于读者查看更多相关内容" class="headerlink" title="相关文章  # 相关文章部分，便于读者查看更多相关内容"></a>相关文章  # 相关文章部分，便于读者查看更多相关内容</h1><ul><li><a href="https://example.com/healthy-eating">如何开始健康饮食</a>  # 插入相关文章的链接</li><li><a href="https://example.com/time-management">如何管理时间</a>  # 插入相关文章的链接</li></ul>]]></content>
       
+      
+      <categories>
+          
+          <category> 个人 </category>
+          
+          <category> 生活 </category>
+          
+      </categories>
       
       
         <tags>
             
-            <tag> 使用说明 </tag>
+            <tag> 日常 </tag>
+            
+            <tag> 生活 </tag>
+            
+            <tag> 记录 </tag>
             
         </tags>
       
@@ -23,19 +35,13 @@
     
     
     <entry>
-      <title>说明文档</title>
-      <link href="/2025/02/24/post/"/>
-      <url>/2025/02/24/post/</url>
+      <title>文章标题</title>
+      <link href="/2025/02/25/%E5%9F%BA%E6%9C%AC%E5%86%85%E5%AE%B9/"/>
+      <url>/2025/02/25/%E5%9F%BA%E6%9C%AC%E5%86%85%E5%AE%B9/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>title【必需】页面标题<br>date【必需】页面创建日期<br>type【必需】标签、分类和友情链接三个页面需要配置<br>updated【可选】页面更新日期<br>description【可选】页面描述<br>keywords【可选】页面关键字<br>comments【可选】显示页面评论模块 (默认 true)<br>top_img【可选】页面顶部图片<br>mathjax【可选】显示 mathjax (当设置 mathjax 的 per_page: false 时，才需要配置，默认 false)<br>katex【可选】显示 katex (当设置 katex 的 per_page: false 时，才需要配置，默认 false)<br>aside【可选】显示侧边栏 (默认 true)<br>aplayer【可选】在需要的页面加载 aplayer 的 js 和 css,请参考文章下面的音乐 配置<br>highlight_shrink【可选】配置代码框是否展开 (true&#x2F;false) (默认为设置中 highlight_shrink 的配置)<br>random【可选】配置友情链接是否随机排序（默认为 false）<br>limit【可选】配置説説显示数量<br>limit.type【可选】配置説説显示数量的类型 （date 或者 num）<br>limit.value【可选】配置説説显示数量的值</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>如上是一个post的font_matter的基本内容。</p>]]></content>
       
       
-      
-        <tags>
-            
-            <tag> Guide </tag>
-            
-        </tags>
       
     </entry>
     
