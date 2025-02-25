@@ -4,7 +4,39 @@
   
     
     <entry>
-      <title>今天的记录</title>
+      <title>我的第一篇博客</title>
+      <link href="/2025/02/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
+      <url>/2025/02/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>基本操作记录</title>
+      <link href="/2025/02/25/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/"/>
+      <url>/2025/02/25/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><hr><h1 id="正文部分"><a href="#正文部分" class="headerlink" title="正文部分"></a>正文部分</h1><p>这里是文章的正文内容，可以使用 Markdown 语法。</p><hr><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><p>示例内容。</p><hr><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><ul><li>列表项 1</li><li>列表项 2</li></ul><hr><p><strong>加粗文本</strong>，<em>斜体文本</em>，<code>行内代码</code>。</p><h2 id=""><a href="#" class="headerlink" title=""></a><img src="/uploads/008.jpg" alt="图片示例" title="这是图片标题"></h2><h2 id="gt-这是一个引用示例。"><a href="#gt-这是一个引用示例。" class="headerlink" title="&gt; 这是一个引用示例。"></a>&gt; 这是一个引用示例。</h2><hr><p>代码块示例：</p><h2 id="-1"><a href="#-1" class="headerlink" title=""></a><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello, Hexo!&quot;</span>)</span><br></pre></td></tr></table></figure></h2><h2 id="3-预览文章"><a href="#3-预览文章" class="headerlink" title="3. 预览文章"></a><strong>3. 预览文章</strong></h2><p>在本地预览文章，确保内容和格式正确：</p><h2 id="-2"><a href="#-2" class="headerlink" title=""></a><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean  <span class="comment"># 清理缓存</span></span><br><span class="line">hexo g      <span class="comment"># 生成静态文件</span></span><br><span class="line">hexo s      <span class="comment"># 启动本地服务器</span></span><br></pre></td></tr></table></figure></h2>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 模板，教程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>文章模板</title>
       <link href="/2025/02/25/%E5%9F%BA%E6%9C%AC%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/"/>
       <url>/2025/02/25/%E5%9F%BA%E6%9C%AC%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/</url>
       
@@ -22,11 +54,7 @@
       
         <tags>
             
-            <tag> 日常 </tag>
-            
-            <tag> 生活 </tag>
-            
-            <tag> 记录 </tag>
+            <tag> 模板 </tag>
             
         </tags>
       
@@ -35,13 +63,19 @@
     
     
     <entry>
-      <title>文章标题</title>
+      <title>博客文章基本内容</title>
       <link href="/2025/02/25/%E5%9F%BA%E6%9C%AC%E5%86%85%E5%AE%B9/"/>
       <url>/2025/02/25/%E5%9F%BA%E6%9C%AC%E5%86%85%E5%AE%B9/</url>
       
         <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>如上是一个post的font_matter的基本内容。</p>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> 模板，教程 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -58,7 +92,7 @@
       
         <tags>
             
-            <tag> healthy </tag>
+            <tag> 模板 </tag>
             
         </tags>
       
