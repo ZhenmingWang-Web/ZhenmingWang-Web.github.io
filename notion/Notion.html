@@ -1,0 +1,932 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>げかいし 卓木! | げかいし 卓木!</title><meta name="author" content="げかいし 卓木,jennyblack53@proton.me"><meta name="copyright" content="げかいし 卓木"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Think About It &#x2F;* cspell:disable-file *&#x2F; &#x2F;* webkit printing magic: print all background colors *&#x2F; html { 	-webkit-print-color-adjust: exact; } * { 	box-sizing: border-box; 	-webkit-print-color-adjust:">
+<meta property="og:type" content="website">
+<meta property="og:title" content="げかいし 卓木!">
+<meta property="og:url" content="https://zhenmingwang-web.github.io/notion/Notion.html">
+<meta property="og:site_name" content="げかいし 卓木!">
+<meta property="og:description" content="Think About It &#x2F;* cspell:disable-file *&#x2F; &#x2F;* webkit printing magic: print all background colors *&#x2F; html { 	-webkit-print-color-adjust: exact; } * { 	box-sizing: border-box; 	-webkit-print-color-adjust:">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://zhenmingwang-web.github.io/uploads/aaa.png">
+<meta property="article:published_time" content="2025-02-27T02:55:08.314Z">
+<meta property="article:modified_time" content="2025-02-22T23:39:02.000Z">
+<meta property="article:author" content="げかいし 卓木">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://zhenmingwang-web.github.io/uploads/aaa.png"><link rel="shortcut icon" href="/uploads/aaa.png"><link rel="canonical" href="https://zhenmingwang-web.github.io/notion/Notion.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', 'undefined')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":true,"languages":{"hits_empty":"未找到符合您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'げかいし 卓木!',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'page'
+}</script><link rel="stylesheet" href="/css/background.css"><link rel="stylesheet" href="/css/transpancy.css"><script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-double-row-display@1.00/cardlistpost.min.css"/>
+<style>#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags:before {content:"\A";
+  white-space: pre;}#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap > .tags > .article-meta__separator{display:none}</style>
+<link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://cdn.cbd.int/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/clock.min.css" /><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body><div id="web_bg" style="background-image: url(url(https://zhenmingwang-web.github.io/img/001.jpg));"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/uploads/aaa.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> Gallery</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url(/uploads/004.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/uploads/aaa.png" alt="Logo"><span class="site-name">げかいし 卓木!</span></a></span><div id="menus"><div id="search-button"><span class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> search</span></span></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> Archives</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> Tags</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> Categories</span></a></div><div class="menus_item"><a class="site-page" href="/gallery/"><i class="fa-fw fas fa-images"></i><span> Gallery</span></a></div><div class="menus_item"><span class="site-page group"><i class="fa-fw fas fa-list"></i><span> List</span><i class="fas fa-chevron-down"></i></span><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title"></h1></div></header><main class="layout" id="content-inner"><div id="page"><div class="container" id="article-container"><html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Think About It</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-default_background {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: undefined; }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-transparentGray { background-color: undefined; }
+.select-value-color-translucentGray { background-color: undefined; }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="11dec3d8-3254-8050-967b-ee09dac84358" class="page sans"><header><img class="page-cover-image" src="https://www.notion.so/images/page-cover/rijksmuseum_avercamp_1620.jpg" style="object-position:center 60%"/><h1 class="page-title">Think About It</h1><p class="page-description"></p></header><div class="page-body"><p id="11dec3d8-3254-805b-a17a-e09ab11ce9ba" class=""><em><mark class="highlight-blue"><strong>下面的内容是我近一年当中所思考的许多问题，因为好多事随性而写的，不免有时候看起来有些混乱，但整体的意思我想因该是表的清楚了。希望这些内容能够在我来日再读的时候，为我带来一些启发。</strong></mark></em></p><nav id="124ec3d8-3254-8069-8935-ce8a0614436b" class="block-color-yellow table_of_contents"><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-80a5-80a9-f81c34143959"><mark class="highlight-default">第一章 保持沉稳、镇定</mark></a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-8046-a149-d2d7fa61adac"> 第二章 平台的重要性</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-80fb-a090-c40f9607a90b">第三章 提出动力不足</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-8081-9dc5-e12bda8b2ed8">第四章 重提</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-804f-b2a0-c5c49a0af75a">第五章 外源动力和内源动力</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-80c0-854a-dd322c03dc59">第六章 重提</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-8027-a42c-c1cd5ee81920">第七章 提升效率</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-80a9-bc80-cd6c26887958">第八章 对未来的粗显思考</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-8095-b17f-fa7575d0cfe5">第九章 树立CET-6小目标</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-80ae-a369-dafc61f3a343"><mark class="highlight-default">第十章 勤加以思考，万事有因果</mark></a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-8043-aab9-c1c0f9ed5ba1">第十一章 重提</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-80a8-b1fa-f8e074dd40b4">第十二章 三年级学习思考</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-80aa-850c-e7c4048bfad1">第十三章 重提</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-80c9-917d-d1cb6e5d8c5a">第十四章 本科前三年回顾2021-2024</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#124ec3d8-3254-8041-9d97-e68a5da87ed0">第十五章 南开大学105周年校庆志愿活动记</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#121ec3d8-3254-8057-a3a7-fb0bafb9150f">第十六章 复盘内科学2-2期中考试</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#124ec3d8-3254-8054-af70-cbb8b6972971">第十七章 院庆讲座-收获</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#131ec3d8-3254-8050-bbbf-f5cf8476fb9a">第十八章 科目二过了</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#131ec3d8-3254-809e-ad98-d4b113bc5eb7">第十九章 理财踩的坑太多啦！！！</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#121ec3d8-3254-8083-a5c7-f684435714a5">第二十章 危重症考试结束</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#137ec3d8-3254-806a-aaea-c85bff95f1d5">第二十一章 体测结束了 和欣的交谈</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#13aec3d8-3254-8063-9e57-cc2d5e172e26">第二十二章 与杨的闲聊和归途偶遇</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#146ec3d8-3254-8048-a359-dfd246128771">第二十三章 科目三过了！！！</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#146ec3d8-3254-80c4-b6bd-fa683a629028">第二十四章 回到校园，享受生活！</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#149ec3d8-3254-802e-a4b2-ed7984645bd4">第二十五章 叶嘉莹先生辞世，痛悼</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#149ec3d8-3254-8096-bd45-c8f9e6d4d7d7">第二十六章 爆仓了</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#14aec3d8-3254-806d-90ce-cb172d901047">第二十七章 天津初雪</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#157ec3d8-3254-8052-a171-cb1fc70563a9">第二十八章 与周的会面，高兴！</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#13aec3d8-3254-801d-be44-d873977940a1">第二十九章 逐渐的开始进行本学期最后异一阶段的冲刺</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#13aec3d8-3254-8046-af08-cffb37f77aad">第三十章 加密货币，黄粱一梦</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#169ec3d8-3254-80a1-bc46-c974822539d2">第三十一章 呵呵呵  认了</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#11dec3d8-3254-804e-a722-f294096660c3">第三十二章  2024—“破圈之年”</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#17cec3d8-3254-8047-a7bd-ccd782fcf33d">第三十三章  2025新年期许</a></div><div class="table_of_contents-item table_of_contents-indent-0"><a class="table_of_contents-link" href="#19eec3d8-3254-80bb-b4a8-d74d47bfa70f">第三十四章 历史转折回顾-文字留影</a></div></nav><h2 id="11dec3d8-3254-80a5-80a9-f81c34143959" class="block-color-yellow"><mark class="highlight-default">第一章 保持沉稳、镇定</mark></h2><p id="11dec3d8-3254-80c8-9365-ed83fae42414" class="">         <em><mark class="highlight-default"><strong>保持沉稳，镇定</strong></mark></em>，这样的情况你之前也不是没有遇到过，现在你就是要做到镇定，切记切记不要重蹈覆辙，做蠢事给你带来的伤害你花了几年才得以修复，不要好了伤疤忘了疼，更何况你之前已经立下承诺，三年之内不问情，请务必要遵守承诺，即便这只是你自己为你自己立下的承诺。如果在此期间出现一些差池，或者说意料之外的事情，姑且都认为是天意使然吧，如果命运让她离开我的生活轨道，自然是要让她去的——本来她最近的行为已经让我感到不安，不时的认为我当时对她的判断是出了错误的，如果一些事情最后还是发生，那我也只能放弃之，她将不再适合作为我的“内生动力”之一。判断一个人的品格于我来说总是第一位的，我可以容忍不完美，但不允许瞎胡闹，如果出现后面的情况，只能Goodbye。</p><hr id="11dec3d8-3254-80a4-84ad-fb0f1ab89a63"/><h2 id="11dec3d8-3254-8046-a149-d2d7fa61adac" class=""> 第二章 平台的重要性</h2><p id="11dec3d8-3254-8071-b9a6-fb36bfc7eed6" class=""> 今天好容易再一次想要码一些文字，不妨碍把最近生出的一些想法也一并写在这里。不得不说前几天参观曹雪涛校长的实验室可谓“后劲十足”，今天上午又参加了一场学术分享（算是吧，虽然说实话讲的啥是真的一点听不进去，，，声音又低沉，内容还繁杂），学到啥倒是不敢妄言，但起码感受了氛围哈哈哈，可以看出来很明显的是，不同的平台成就不同的人生，不同的人生取得不同的成就。讲此话并无它意，只在强调平台的重要性，或者说不要低估平台的重要性。</p><p id="11dec3d8-3254-8014-9c99-e7a301ceb074" class="">        浑噩噩每天度日，最后进入个不上不下的平台，再加上如今国内学术氛围的现状，想要成就些个什么可以说是难上加难。如何去讲呢，时至如今，必须要对现状有清晰的认识，起码要在你的能力范围之内，尽可能的认识他，搞清楚“游戏规则”，然后再开始有目的的制定、开展实施你的计划。所谓“凡事预则立，不预则废”，要对一些重要的事情做明确的计划，尤其是那些需要长期努力的计划，更应该提早规划，早做行动。回到当下，在近些年里，我要做的事情无外乎就是立足于天津的某座三甲医院，如果运气好，去北京的某座三甲医院，我需要扎根在天津，这就是我必须要做到的事情，这会是我下一步职业发展、生活规划的一个重大前提，否则现在玩的再红火热闹也终有一天会在现实面前化为泡影。无奈何，每个人的人生轨迹生而不同，这就是我的人生轨迹，起码我想要这么走，就得这么做，而且要做到。</p><p id="11dec3d8-3254-80b2-be9f-c5e758147f44" class="">         做这些事情，就是为了要做到像前面所说的，进入一个高质量的“平台”，并基于此实现我的下一步人生计划，这个就有些远了，现在去谈论还尚早，但我想终有一天，这会是我要现实面对的问题。</p><p id="11dec3d8-3254-803f-9a90-dfd978e4dc21" class="">现在要去开小组会，一会聊一聊最近思考的—动力相关的问题。</p><hr id="11dec3d8-3254-8092-8827-d3828306b70b"/><h2 id="11dec3d8-3254-80fb-a090-c40f9607a90b" class="">第三章 提出动力不足</h2><p id="11dec3d8-3254-8098-be40-fdf02e439c14" class="">         接上文，在参观玩曹校长的实验室之后，我愈发觉得当下之努力的必要性与紧迫性，因而对当下的处境做了分析与思考，得出心在学习进展缓慢，效率低下的主要原因是动力不足。</p><p id="11dec3d8-3254-8085-8366-e3f63fa8b258" class="">这里所指示的动力不足既包括内源的动力也包括外源的动力不足。内源之动力来自于自己的想法，即“自己想要学习“，这种动力很难得，但如果能够找寻到足以支持自己前进的内源动力，其对我们做事生活所产生的影响远大于外源动力也就是压力所能产生的影响。所以我一直在尝试寻找到可靠的内源动力，在前些时候，我以wkx为标齐目标，也就是作为内源动力，不得不说，在一段时间内，我的效率确实得到了显著的提高，每天也能感受到过的很充实。但现如今我发现，这样一个内源目标逐渐的有堕落的趋势，或者说其并非如我刚开始所想象的那样，她更像是一个投机者，缺乏踏踏实实干事情的恒心和毅力，这一点很糟糕，我觉得尽早改变掉这样一个不可靠的内源动力来源比较好。</p><p id="11dec3d8-3254-804e-8dbd-dd61a72ce1e6" class="">        外源动力主要还是来自外部的压力，比如升学、比如一些资源分配都会涉及到学业成绩，所以，搞好学业成绩也很重要。当然还有奖助学金的名额也和学业成绩关系密切哈哈哈。</p><p id="11dec3d8-3254-8080-859d-eea1013f9d3c" class="">        图书馆快要闭馆了，今天先写到这里。明天接着写我寻找到的新的内源动力，思想上的改变。</p><hr id="11dec3d8-3254-8020-80ac-c58693f77e0c"/><h2 id="11dec3d8-3254-8081-9dc5-e12bda8b2ed8" class="">第四章 重提</h2><p id="11dec3d8-3254-8065-b4d9-c2a7857b1ecb" class="">         今天（2023年11月21日，农历十月初九）是我的20岁生日，没有太多的安排，就是放松一下，晚上热闹热闹，然后继续努力呀！</p><hr id="11dec3d8-3254-80df-8c2a-f42123342eb4"/><h2 id="11dec3d8-3254-804f-b2a0-c5c49a0af75a" class="">第五章 外源动力和内源动力</h2><p id="11dec3d8-3254-8053-b8d8-f2a8e8e70474" class="">         接上文，关于外源动力和内源动力，还有许多的点需要进一步阐明。外源动力，是外部压力作用下的被动学习，但是如何去看待外源动力所产生的压力就变成了我们需要面对的问题，因为如果将之看的太过于重要，就难免的会陷入被学分绩限制住手脚，所有的或者讲大部分的活动都围绕着学分绩去旋转，而使得我对于“综合能力“的提升轻视，这无疑是不好的。对此问题，划清外源动力产生的结果的水平就很重要，或者说我们只需要在外源的动力催促之下，达到一定的目标水平，维持在这个水平，就足够了，这也就是我经常戏称的”第一梯队“，这一部分的人在大部分的重要的与学分绩相关的事项中，是会占到优势的，至于评什么国奖市奖之类，我倒是说实话没有那么感兴趣，能得一个自然是好不过的了，得不了倒也不至于彻夜难眠，立誓请愿，发奋图强，为了这个奖项做太多与之不匹配的努力。<em><mark class="highlight-yellow"><strong>现在来看，我的目标简单的定为在学院当中，排在20%以内，这个水平可以让我在大部分的情况之下占据优势，至于在此基础上能够让我进步到哪里，到什么水平，都是另外的事情了。换言之，20%的学业成绩是底线，是在学业压力之下你应该完成的指标，没有什么好说的。</strong></mark></em></p><p id="11dec3d8-3254-80b7-bab9-e7f02be96df8" class="">         关于内源动力，这是我更多的想要谈及的。正如前面所提到的，我发现现在的内源动力出现了某些并不是我想要看到的情况，这一点很糟糕，我逐渐的丧失了对于把她作为内源动力的兴趣。现在我正在寻找一个新的可靠的内源动力的来源，我思来想去，觉得把把自己的努力的动力和某些外在的事物建立联系终究是不可靠的，永恒之物哪里存在！发生变化是再平常不过的事情了，坦然接受之，然后开始寻找解决的办法，才是面对突如其来的变故的正确的打开方式。放弃了寻找外在事物作为内源动力的想法，就要转向向内寻找动力来源，也就是从思想上进行探索寻找，其实也就是寻找能够督促我不断向前行进的某种目标。在这里我需要避免那些虚无缥缈的空谈，比如“树立远大理想，做人民的好医生“之类听着就很扯的话。我需要一个能够促使我前进的，实现的可能性比较大的，某种意义上是”利我“的目标。其实目前来看，我的想法还是比较简单，必须要形成系统的临床思维，在别人为专业教材所苦苦折磨的时候（当然我也是），同步的进行临床思维的学习培养，包括诊断的思路？分析的角度？如何诊治？大概是这样一些内容，总之是要在本科的学习过程当中，形成对人体，对医学、对疾病的整体概念，然后再后期的实习实践当中再结合实际进一步完善我对这些内容的看法，我觉得这是重要的，是成为一名出色的医生的基础，而不是成为一个只会关注局部，难以联系整体的医生，虽然算不上庸医，但肯定有所局限。</p><p id="11dec3d8-3254-8046-b726-d6b6eb600c57" class="">     <em><strong>    </strong></em><em><mark class="highlight-yellow"><strong>简单言之，我不在为了奖学金而”卷“死卷活的同时，不是在摆烂消磨时光，而是应该在不断的进行学习，主要是进行回顾，思考，总结。平时学习的一门门专业课就像是一条条经纬线，在别人努力的把经纬线从99米延长到100米时，我们去把所有的这些经纬线交织联系，编织成网，不一定说这么做就比那些延长经纬线的人精明，但是这样能够帮助我更加系统的理解人体，理解医学，而为将来的发展做准备。</strong></mark></em></p><p id="11dec3d8-3254-80e3-bba5-c3187818bacd" class="">         内源动力的来源除去进行系统回顾，加深理解，为将来的发展做准备之外，另外的比较重要的事情，就是一些技能的学习，作为生活的调剂，毕竟每天只学习医学相关的知识，难免乏味无聊呃呃呃，效率低下时不妨碍学习学习其他的内容，或者进行其他的事情。比如最近正在进行的简单的Python的学习，倒也说实话没指望靠着这个干什么，就是简单的学习一些基本的编程技能，换换脑子吧，再者，今天学习的内容没准将来那一天他就真的会用到哈哈哈，其实主要还是想要理解编程程序执行的方式，一行一行的进行，就像临床诊断一样，一个一个的去查呃呃呃（好阴间的比喻），还有就是编写代码的时候需要仔细的思考程序语言，不能出错，对我养成精细思考之能力或许也会有些帮助吧，阿弥陀佛。还有就是日语的学习，这个得话好久的时间，还得联系，所以整体来说进行的比较慢，不过也不妨碍，希望能够坚持住，掌握一门语言的感觉真的太Cool 啦。</p><p id="11dec3d8-3254-809d-b3af-fc49bc89c75b" class="">         <em><mark class="highlight-yellow"><strong>简单的总结一下，内源动力的来源就是A,跳出专业看清专业课，从整体把握知识B,进行课外学习，可以是不同的领域的内容，可以是简单了解，也可以是系统学习，重在思想把握，能运用最好啦当然。</strong></mark></em></p><p id="11dec3d8-3254-8081-b4e9-ed3f14e47df1" class=""><em><mark class="highlight-yellow"><strong>外源动力保基础，内源动力创新高。</strong></mark></em></p><p id="11dec3d8-3254-80b2-b08d-ff8d9a78f8ec" class="">        如上就是我对内源动力与外源动力的一些阐述，或许来日看，今天的想法会有许多不完善的地方，但也无妨，到时再修正就是了，本来就是不断完善的过程，阿弥陀佛。</p><hr id="11dec3d8-3254-8016-b24e-e9ff6c819334"/><h2 id="11dec3d8-3254-80c0-854a-dd322c03dc59" class="">第六章 重提</h2><p id="11dec3d8-3254-809b-beae-e5773f7f2cee" class="">         今天中午没事情可做，所以泛泛谈了这么多，最近如果还有时间的话，我想要聊一聊一些对时间利用的看法，或许能够从中找到提高效率的关键。</p><p id="11dec3d8-3254-806e-826f-ce948bbcde47" class="">前几天赶着复习进度，现在超前了不少，今天偷个懒，晚上得了些空闲，又打开了这个文档，想着接着前面得内容再写下去【20231127】。</p><hr id="11dec3d8-3254-8077-a063-c4cdec9c1af0"/><h2 id="11dec3d8-3254-8027-a42c-c1cd5ee81920" class="">第七章 提升效率</h2><p id="11dec3d8-3254-80df-9f2a-e66501ff1bd3" class="">         如上，今天接着谈对时间得利用。提到这一点，我不由得想起来前些天刚开始做第一轮复习规划的时候，简单的统计过每周的非上课时间，除去周末得有好几十个小时的空闲时间，我在想着如果能够见这些时间善加利用，相信其会给我带来不小的产出吧。但是几周尝试下来，打疲劳战确实不是我擅长的事情，，，长时间的连续工作会导致我的效率逐渐低下，反倒不如去摆烂追追剧，刷刷视频之类。我一直以来觉得效率才是最重要的，就像前些天给佳乐说过的，产出=效率✖时间，要想追求产出，你可以有三种选择：最笨的低效率乘以长时间，身心俱疲但也能有些收获；稍好的是高效率乘以较短的时间，能够在比较少的时间里获得较好的产出；最好的当然就是高效率乘以足够多的时间，这可以让你获得更多的收获，从而取得更大的进步或者其他。遗憾的是我们现在正处在第一阶段，低效率乘以长时间，我将之归因为学期初心态被搞乱的结果，正在努力的调整，现在能感觉到，正在逐步的走向正轨，希望能够更进一步。归根结底其实就是我想要提高效率，单说着有些玄乎，，，网上的“教程”“指南”里都是些假大空的内容，没一点意思，还是要靠自己去总结探索。</p><p id="11dec3d8-3254-8026-9abd-d69c4f8a9f4d" class=""><em><mark class="highlight-yellow"><strong>我觉得以下几点是值得注意的：</strong></mark></em></p><ul id="11dec3d8-3254-8099-973d-cfaa6e2575e9" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-yellow"><strong>减少手机的干扰；</strong></mark></em></li></ul><ul id="11dec3d8-3254-80f8-b1ed-d7e22290ac0c" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-yellow"><strong>提高专注度（α波音乐或其他）；</strong></mark></em></li></ul><ul id="11dec3d8-3254-80c6-970c-cf0320167fae" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-yellow"><strong>劳逸结合（感觉到效率低下的时候，果断放下手中的事情，放松一会，听听音乐？胡思乱想也不是不行，重要的是调整好再继续工作。牢记低效率做事不如不做）；</strong></mark></em></li></ul><ul id="11dec3d8-3254-8078-aafb-c3018f731aea" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-yellow"><strong>安排时间与制定计划（安排好时间、任务、计划，不要这也看一会，那也看一会，最后迷迷糊糊什么也没看进去）；</strong></mark></em></li></ul><ul id="11dec3d8-3254-80a4-abe9-ce15cceced46" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-yellow"><strong>坚定信念（内源动力发挥作用）；</strong></mark></em></li></ul><ul id="11dec3d8-3254-805a-acb4-e370be782086" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-yellow"><strong>难以开始？（先尝试5分钟）；</strong></mark></em></li></ul><ul id="11dec3d8-3254-800f-866e-e9bb004d5349" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-yellow"><strong>不疯魔，何成佛？（阿弥陀佛）</strong></mark></em></li></ul><ul id="11dec3d8-3254-8057-817e-d48dbd8210fa" class="bulleted-list"><li style="list-style-type:disc">未完待续</li></ul><p id="11dec3d8-3254-8031-808b-d7ee681d334a" class="">如上，希望能有一些用处。</p><p id="11dec3d8-3254-8021-8c6f-c328739d19a2" class="">         另外今天也想要随便写一些自己对自己这两年学一路走过来的一些想法，不为抒情感怀，就是想要记录一下我的转变，希望能够鼓舞我继续走下去。</p><p id="11dec3d8-3254-805d-b6bf-c16142fad2ea" class="">         毫不夸张地讲，我刚刚踏入南开大学医学院的时候，我甚至对于心脏在那些这个问题都要思考一下才能给出答案，还不能十分肯定呃呃呃。现在想真是匪夷所思，且不说高中那些乱七八糟的事情弄得我最后也是乱七八糟，模模糊糊的来到我开，来到我开的医学院，就说我当时学医的想法这个勇气到底是怎么来的，真是奇哉怪也！！！不过现在想起来也不那么重要，反正已经走到这一步了，想要回去肯定是不太行了哈哈哈。</p><p id="11dec3d8-3254-8021-bd79-d8ea4d26fae9" class="">         现在回想起来我看着大一的时候那个系统解剖学何组织与胚胎学教材迷茫的时候，真的是，太佩服自己那时候没有放弃掉，我真的是对于学医什么都不晓得，我长这么大一共也就去过几次乡政府的小门诊买过药，再就是打过几次疫苗，要说对医有什么印象，大概就是几年疫情，医务工作者总是以正面的形象出现再媒体当中，算是我学医想法的萌芽吧。可能即使那样简单的信念支持着我学了医，但大一的基础课程就给了我下马威，一方面是大学生活的适应，一方面是全新的学习模式，还有就是高中的杂事残根困扰，我一下子真没有切换过来，导致那一学期过的是相当煎熬，勉勉强强的把专业课混过去，成绩也是不敢多说，太丢人。大一下比大一上要好些，但也不能说特别好，记得那时候每天要做核酸，也是相当烦人，整天心情也很糟糕，好像就是那时候学会翻墙的哈哈哈。大二的时候要比大一整体上好多了，我记得应该是当时大一成绩确实差劲，都到了30%+，确实感觉到有些慌乱了，也是应该进行过深刻的自省，总之最后是改变了，我记得没错的话，应该就是那时候开始把王可欣作为“内源动力”的，她那时候是很优秀的，我记得是的，至少我那时候觉得她是的，必须承认，她在很大程度上促进了我向上努力，即便这些只有我知道，记得那个学期也是早放假了，因为局解实验好像还大闹集市来着呵呵呵。然后就是大二下学期，这个学期过的可以说是相当繁忙，开学的时候要应付上学期留下的期末考试，中间还有药理还是什么的中期考试，紧接着就是期末考试，还有见习，这一整个学期都是在考试当中度过的啊啊啊，不管怎么说，这个学期的努力，还是颇有收获的。然后就是这个学期，忍受三大诊断还有各种水课的折磨。</p><p id="11dec3d8-3254-80dd-989b-cf88a7f74e84" class="">         在这个过程当中，我对学医的看法也在逐渐的转变，从大一的可以说是有些抵触的（属于是看见大绿皮就想吐），逐渐的到大二开始渐渐的喜欢上了这门科学，我从最初的逼着我学，到现在我倒是愿意去自己来回翻看着去学习，我觉得这对我自己而言是极大的进步——我发现我逐渐的热爱上这门科学了！！！有什么比找到自己热爱之物更令人兴奋的呢？想到这些我偶尔也感叹，自己的学医历程（虽然可以说刚开始），真是一段难得的经历。</p><p id="11dec3d8-3254-8006-8f31-fa8a91e9eb9c" class="">         上面简单谈了我从啥也不懂的“医学生”，经历两年“折磨”逐步走到今天的过程。今天时间有些晚了，下次<em><strong>有空的话，我愿意谈一谈，1，我为什么会逐渐的热爱上这一门科学，它有什么吸引我的地方；以及如果时间足够充裕，2，谈一谈我打算怎么去让我的这一份热爱促进我进步，并抛开功利的角度，3，谈一谈我想要在这个领域做出怎么样的贡献和该怎么努力实现它</strong></em>。</p><hr id="11dec3d8-3254-80f5-b838-e446f777bf4d"/><h2 id="11dec3d8-3254-80a9-bc80-cd6c26887958" class="">第八章 对未来的粗显思考</h2><p id="11dec3d8-3254-80f9-8a78-d844158862b6" class="">         周二周三周四整天都在上课，今天周五白天胡乱忙完，晚上去学活看了一场话剧，现在得空，想要继续将这些内容完善。我愿意花费时间去做这件事情，因为我希望能够在我思考组织这些文字得同时，对过往有一个简单的回顾——趁我现在还记得比较清楚，同时希望在过往之中能够找寻到一些难得珍贵的思考产物。下面我逐一的去谈上面提到的几个问题：</p><p id="11dec3d8-3254-806f-b265-fe1d640bc29d" class="">          讲实话，我最初学医的痛苦与迷茫，现在想起来也是记忆犹新，每天看着那个教材就脑袋大，转专业的想法也不止一次萌生。不过后来因为种种原因也就不了了之了——有时候只是脑门一热，才生出了转专业的想法，但看看当时眼下一些课程的学习情况，又不得不放弃。总之最后的结果就是在大二转专业的档口，我没有报名，这意味着我再没有退路，学医这条路再苦再累，也要走下去，走到头。可能就是在那个时候，我下定决心要弥补回来在大学一年级错过的东西，我记得我在大学二年级上学期的时候，学习的还是很努力的（也不知算不算自我感动），总之我的想法态度发生了转变，之后事情逐渐的好转起来，虽然没有什么黑马逆袭的情节，但与我自己而言，进步就是好的。有时候想一想，人还是被逼出来的，舒适的环境里，很少有人会想着去伤筋动骨的去做出改变，或许是哪一件事，哪一个人，突然之间会对你产生某种影响，自那之后，就开始改变，挺奇妙的。对于我来说，被逼无奈只能硬着头皮走下去，这是我自打消转专业念头之后，学习医学最初的态度。那时我每天逼着自己看那些无聊透顶的教材，一遍一遍地看，一行一行的看，自己总结笔记，去想去查，有时候因为一些现在看起来算是细枝末节的东西花费好几个小时去看，总之那时候是一种纯纯苦行僧式的学习模式，效率奇低但多多少少能记住一些。但现在说起来倒是有趣，就是在那种苦行僧式的学习之下，我逐渐培养起来的对医学的兴趣，我逐渐的摸索到学习那些知识的规律，实现了或者说在一定程度上实现了学习方法的试错，最后算是<em><mark class="highlight-yellow"><strong>小结出学习医学知识的简单的思路：局部与局部、局部与整体之间关系密切；看似晦涩难懂的大段术语背后，想要阐明的，可能就是你能够用一句话或者联系一个实际例子就能理解的事物或者规律，换言之，把教材上抽象的大段文字经过思考，联系、理解之后，就不再那么难懂了。</strong></mark></em>正在在这种（类）思想的指引之下，我逐渐的培养起来对这门学科的兴趣，现在来说，虽然算是不上能够轻松应对各种繁杂的内容，但相比之前要好太多了。</p><p id="11dec3d8-3254-805f-8480-c373b61a82fa" class="">         正是在这种兴趣的促进作用之下我现在又是回去主动的关注一些内容，这些内容又会反过来增加我的兴趣，这样一个正反馈的机制给人感觉很好。</p><p id="11dec3d8-3254-80af-9a7d-c554e47cbbd5" class="">         至于上面提及的第三点问题，现在去谈可能还为时尚早，但有些期许总归是好的哈哈哈。首先想到的当然还是成为一名医生，一名出色的医生是选择这个专业的大部分人的目标，但具体的结合实际来说，这个目标的实现是带着理想主义色彩的。要知道在现下各个圈子里，人情世故显得非常重要，医学当然也不例外，这是大环境，没办法改变，是中国人几千年的“传统美德”，要想让它们摒弃之简直像是刮骨疗毒，少有人喜欢这样的氛围但没有人有能力改变。谈到这里，我脑海里突然想起了二舅妈经常挂在嘴边的一句话“改变不了环境，就要学会改变自己”，虽然她没怎么读过书，但道理是没有错误的。这教示着我应该去做出改变，适应这样的环境才行。读书人的清高劲，在社会现实面前就是笑话，必须收起来这股子清高劲，才能让你掩藏在清高之下的真才实干得到发挥，进而才能去谈做出贡献之类。在现实当中，就要现实的考虑问题，同样的，理想主义也应该收一收，做一名医生显然并不是积累财富的最佳职业选择，但相对而言它可以在某种程度上实现你的价值，这样去想，这个职业还是蛮不错的：它可以让你在帮助别人解除病痛的同时得到满足，同时可以让你获取相对应得的酬劳。如何去说呢，这个职业确实可以很大程度上满足我实现价值的渴望，但我同时想要成为一个富有的人，这就不得不让我在合法的范围内，去考虑更多的选择，像如学会投资之类？我认为（以我现在的认知），这也是一门学问，值得去学习，运用头脑去获得财富，比单纯的靠劳动去获取薪酬，又要强上许多。</p><p id="11dec3d8-3254-8014-a735-db860897d445" class="">        小结一下：<em><mark class="highlight-yellow"><strong>成为一名出色的医生以实现我的价值，并从中得到满足；成为一名聪明的投资者，让你的生活变得富足，而不必节衣缩食去“当劳动模范“，感天动地，另外，我想要添加一条，想要成为一名医学研究者（非所谓‘专家’），为人类之医学事业贡献新知。</strong></mark></em></p><p id="11dec3d8-3254-8045-a52c-d412b2ec7931" class="">阿弥陀佛</p><p id="11dec3d8-3254-80d2-be9d-e1ff32173f6f" class="">         <em><strong>如上是我对上一次留下的三个问题的思考回答，可能不甚全面正确，但尚可以作为思考产物留存，供来日会看思考批驳。</strong></em></p><p id="11dec3d8-3254-80aa-a6b1-fa4e5f528173" class="">如果近日还有空闲，我想要谈一谈我对于疾病与药物的浅薄认知，希望能从中厘清一些道理。</p><p id="11dec3d8-3254-800d-ac8f-f099cda52c64" class="">【2023年12月1日星期五】</p><hr id="11dec3d8-3254-80f2-8f79-c01a11f2aa76"/><h2 id="11dec3d8-3254-8095-b17f-fa7575d0cfe5" class="">第九章 树立CET-6小目标</h2><p id="11dec3d8-3254-8064-b51c-ff48f725402d" class="">         近两个周也不知道在忙些什么，反正迷迷糊糊就到了今天（2023年12月15日星期五），明天下午要进行六级考试，现在一片迷茫，得过且过罢，反正肯定是要重新考一次的——得让分数好看一些，<em><mark class="highlight-red"><strong>600分吧，大概在毕业之前达到这一个目标。</strong></mark></em>不过明天的考试还是认真的对待一下，起码在考场上作答的时候要尽力而为。话说回来，因为明天考试，加之最近第二轮复习计划进行的也还算顺利，今天晚上就GAP一下，做点无关紧要的事情，应该可以吧？哈哈。</p><hr id="11dec3d8-3254-80bd-82cc-c12ddda8d0b2"/><h2 id="11dec3d8-3254-80ae-a369-dafc61f3a343" class=""><mark class="highlight-default">第十章 勤加以思考，万事有因果</mark></h2><p id="11dec3d8-3254-8015-a982-d40d12e2b889" class="">接着上次留下来的问题继续谈：</p><p id="11dec3d8-3254-8014-8e7f-ed210a592786" class="">         关于疾病与药物，我觉得按照中医的理论，讲的玄乎的很，我也了解不多，所以我还是喜欢或者说更加接受西医的理论，或者说从药理学的角度去理解这二者间的关系。可能是长期以来已经形成的这样一种“科学” 的思维模式（算是吧），更加喜欢用具体的机制去考虑事情之间的相互作用，就比如药物与疾病，或者说，药物与身体相互作用，从而使得疾病得到治愈或者缓解。各种药物的作用机制倒是不必要在这里扯一大片，都在那本蓝色的药理书里面，，，回头抽空是得复习一下的。我还是想要从更大一些的、宏观的角度去看一下，或许对于我把握之有些许帮助。</p><p id="11dec3d8-3254-8093-a54f-e493cb167556" class="">        记得药理课上老师开玩笑般说过，那么厚的一本药理学教材，只有一个药物是中国人发明的，就是青蒿素。嗯，，，不好评价。玩笑归玩笑，那就按照西方人的角度去看呗，最多也就是名字难记一些，不过也还算是有一丁点规律的，比如一大堆叫XX洛尔的都和普萘洛尔有些关系，之类。</p><p id="11dec3d8-3254-80d4-bf78-df55b7a4aba1" class="">         在这里我想要提及一个很重要的说法或者是观点吧，我自己之前从来没有想过：一种药物进入机体会产生非常多的生物作用，比如β受体阻断剂，用了之后会让全身的受体收到阻断，这时候说实话除去我们想要阻断的部位的受体之外，阻断其他部位的受体，都是副作用，应该极力避免，这也就是为什么药学家合成了或者寻找到那么多药物的原因——这些药物也具β受体阻断的功能，但是只局限于某一部位，这就使得其特异性得到提高，副作用降低，人们无疑会更加中意这一种药物，这也是为什么药理书里一种典型药物后面会介绍一大堆相似作用的药物的原因，细细考究之下会发现都各有道理。</p><p id="11dec3d8-3254-805e-9d82-dc4c57f5e89e" class=""><em><mark class="highlight-yellow"><strong>勤加以思考，万事有因果。</strong></mark></em></p><p id="11dec3d8-3254-80d1-a7eb-e5cbcf679ad0" class="">        最近大概都没有机会再继续更新了，因为在下周，我就要开始认真的准备复习期末考试了，还是想努努力，实现一下冲进前列的目标，当然不止是学分绩。在南开园子里多少留下一点痕迹，别回头提起名字都没人晓得。<em><strong>正在逐渐的完成蜕变，希望会有一个好的结果。要在这样的环境当中改变思路：学分绩要提高，但只应该是我的计划的一小部分，长远计划要实现先人一步，就要提前筹划。请务必厚积薄发，久久为功，我依然还是想要【不鸣则已，一鸣惊人】。</strong></em></p><p id="11dec3d8-3254-80c0-96e0-da78e429f232" class="">晚安 ！</p><p id="11dec3d8-3254-80ba-89bf-cfc97c6a9770" class="">2023年12月15日星期五 22：06</p><p id="11dec3d8-3254-80e1-9351-dc4acf008c68" class="">南开大学文中馆</p><p id="11dec3d8-3254-80d5-8054-e96c6d23f371" class="">四楼大厅的暖气片旁</p><hr id="11dec3d8-3254-8074-a9d5-eb65cd8c2763"/><h2 id="11dec3d8-3254-8043-aab9-c1c0f9ed5ba1" class="">第十一章 重提</h2><p id="11dec3d8-3254-80b3-80aa-ff0d70160bb5" class="">        喔哦喔哦我又复活了哈哈哈，经过接近两个周的复习与考试，终于是把这难挨的一个学期结束掉了，近期也会进行学期以及年度总结，最近也还是暂时没有想到特别想要写下来的话题，今天姑且就冒个泡，近期想到合适的话题的话会恢复更新。</p><p id="11dec3d8-3254-80ca-8247-f9d37fcbea8a" class="">2024年1月12日星期五11：05</p><p id="11dec3d8-3254-804c-8b3c-e796984f2b72" class="">家中</p><p id="11dec3d8-3254-80c9-b8ad-d4c322bf1dc7" class="">电视前茶几哈哈哈</p><hr id="11dec3d8-3254-808a-a312-d9cb6f93a931"/><h2 id="11dec3d8-3254-80a8-b1fa-f8e074dd40b4" class="">第十二章 三年级学习思考</h2><p id="11dec3d8-3254-8018-ada0-dbbbefcfd2b8" class="">         最近一段时间，许久没有的迷乱感又一次逐渐的加深起来，可能是最近成绩逐渐出来的缘故吧。不知为何，这种感觉总是不时的涌上心头，算不上周期性的，但每过一段时间就产生这样的感觉，总还是让人感觉很不好，因为每次产生这样的感觉，继之而来的就是一段自我内耗，自我否定，自我怀疑，而我确信这种感觉的产生与外部条件的改变有着莫大的关系，每次面临这样的情况我就会陷入迷乱，往往需要在大段的文字当中来理清思绪，寻找原因，然后尝试着寻找出路。不出所料的话，我现在就再一次面临着这样的问题。</p><p id="11dec3d8-3254-80b6-af71-c170732e46a5" class="">         这一次产生这样的迷乱的感觉的原因，我想很大程度上与这一次考试相关联，尤其是几个与预期有较大落差的科目，比如临床诊断学和实验诊断学，至于医患沟通技巧，倒是不会很在意。现在想来，这两科目，我付出的时间和精力是蛮大的，掌握程度也基本上达到了预期：<em><mark class="highlight-yellow"><strong>关键在于掌握核心的观点与思想</strong></mark></em>，至于太过于细节的内容，倒是不必太着急，会在之后的临床实践当中反复接触，倒是会更加熟悉，理解也会更加深刻，那样的学习比现在死记硬背记住我觉得要好得多。不过看起来就像是前些天读到的一篇文章中所讲到的，大学现在已经变了，能力导向不再是主流，投机或者说学分绩才是“王道“，在这样的错误的思想的影响之下，我们显然不能很好的适应这样的”新模式“，从而显得有些落后，但不可否定，坚定不移的坚持”能力与实际应用“是不会出错的，是能够经得住实际检验的。导致我们产生这样的心理落差，进而产生自我内耗的原因就在这里——预期与现实之间的差距。<em><strong>为了寻找出路，或许应该循着一定的思路层次，避免混乱，逐渐深入的思考这一问题。</strong></em></p><p id="11dec3d8-3254-80f7-95d4-fc3004f0f856" class="">⭐首先我们已经明确了目前的状态：能够做到掌握核心的要点，已经达到了对自身的要求，但是不能很好的应对考试。</p><p id="11dec3d8-3254-80fc-8e09-ccd1491f2e28" class="">⭐其次考虑我们对自己的预期是怎样的：考虑这个问题就是给自徒增烦恼，人总是有贪心的，到了30%想着去20%，到了20%想着去10%，到了10%更加的不愿意止步，到最后除了学分绩一无所有。这显然不是我想要的，这与我的初衷是相背离的，我极力得想要摆脱“做题家”的名号，不愿意去太争夺那些没有太多意义的东西。就我目前而言，除去之前立下的一些诺言（大三结束前到88分）之外，其他的并没有太约束我的条条框框，事实上，我立下的flag向来是按照80%去实践的哈哈哈，就这一点来看，目前也基本上达到了要求。至于其他的一些必要的成就，我认为需要维持的大概就是稍微靠前一些的学分绩了吧，因为或许在之后的发展当中回和这个玩意产生一些关联，比如在大五的时候实习医院的分配等等，在此之后，我实在想不出来这玩意还能有什么用处。所以如果要认真考虑我对自己的预期这个问题的话，大概就是维持学分绩排名在20%左右就行，或者细化一些15%-20%便可，超出20%就稍微有些不可接受了，至于比15%还进，，，虽然可能性不大，但还是提示自己可以稍微放缓一些，可以在其他事情上多分配一些时间。以上是我对自己的预期，当然只是指在学业成绩方面。</p><p id="11dec3d8-3254-8036-b074-ce55b84452bb" class="">⭐再次考虑我们目前的情况是怎样的，是否达到预期，没有达到差距在哪里。显然目前未能达到我们的预期，或者说对自己能否达到预期产生了一些怀疑，这是现在产生迷乱感的重要原因，而这种怀疑无疑有来源于成绩，临床诊断学的成绩是让我有些惊讶的，想起来当时半小时左右就交掉了试卷，是做的有些张扬的啊，可能有许多细节没有仔细考虑，产生了差错而你自己还没有发觉，也正因此导致了你成绩预期与实际之间的差距有些大。嗯，不得不说，你是用心准备了的，整张试卷里并没有让你发懵的题目，起码每个点你都曾经仔细的考虑过，我认为能够做到这样，就不必要自责，自我怀疑更是没有必要，<em><mark class="highlight-yellow"><strong>我在想如果之后的每一次考试都能够做到像这一次一样，再加上一些沉稳，我想结果不会很差的。总的来说，我们应试的准备很充分，但是在考试时心浮气躁，加之字迹潦草，可能是导致问题产生的重要原因。</strong></mark></em></p><p id="11dec3d8-3254-8020-8e72-f581aa1efdb1" class="">⭐如何使得二者间平衡，是降低预期还是继续提升自己的表面成绩：关于这个问题，显然没有太多考虑的必要，目前的预期水平已经很低了，如果再去降低，很可能导致其丧失掉意义，所以在考虑解决方案的时候果断是不考虑降低预期这一选项的。相反的，我会更加多的考虑如何在学习与考试之间寻找平衡位置，平时学习与考试应试是否应该分开考虑，以此来寻找破解目前困境的方法。</p><p id="11dec3d8-3254-80f8-9064-ec325c70c2d5" class=""><em><strong>如上是我对近期迷乱的思考，小结一下：</strong></em></p><ul id="11dec3d8-3254-8019-b185-f4fa42770b71" class="bulleted-list"><li style="list-style-type:disc"><em><strong>坚持平时学习以能力学习为主</strong></em></li></ul><ul id="11dec3d8-3254-8052-9d95-ca82860280b7" class="bulleted-list"><li style="list-style-type:disc"><em><strong>制定合理的成绩预期：“15%-20%”</strong></em></li></ul><ul id="11dec3d8-3254-8072-8802-f26d2fb4d9ea" class="bulleted-list"><li style="list-style-type:disc"><em><strong>探索学习与考试的分别应对之道</strong></em></li></ul><ul id="11dec3d8-3254-8044-afcb-daefa1ecda0f" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-red"><strong>学习平静应对各种状况，考试尤其不要兴奋。。。</strong></mark></em></li></ul><p id="11dec3d8-3254-8084-a526-d52c5669358b" class="">2024年1月19日星期五</p><p id="11dec3d8-3254-80f5-adf6-f78a90a4565f" class="">雪</p><p id="11dec3d8-3254-802c-9057-fbc7b3ac818c" class="">家中</p><hr id="11dec3d8-3254-80e1-ad7f-f7fefde9450b"/><h2 id="11dec3d8-3254-80aa-850c-e7c4048bfad1" class="">第十三章 重提</h2><p id="11dec3d8-3254-806b-abce-efa810a84f89" class="">         今天写24年下半年的时间计划的时候，偶然间想起来之前写过的这些文字，这才隔了大半年，又打开了这一个Word文档，读了里面的一些内容，感觉当时自己的思维还是蛮活跃的，里面的一些观点今天看到甚至还有些吃惊——那么久之前我就已经意识到了的问题，现在来看，做的还是不是特别好。。。人麻了</p><p id="11dec3d8-3254-80c1-a2ed-f072c1ac8893" class="">         近期时间还是比较紧张的，怕是没有太多时间重新更新这一个文档，但我想我会让它长期的留在桌面上的，不是的看一看当初自己的观点和看法，也是蛮奇妙的一件事情。</p><p id="11dec3d8-3254-8086-b00a-f1835020f972" class="">2024年9月12日星期四</p><p id="11dec3d8-3254-805b-b512-ffe4b7951c39" class="">寝</p><hr id="11dec3d8-3254-80bc-a2e2-db3174a33092"/><h2 id="11dec3d8-3254-80c9-917d-d1cb6e5d8c5a" class="">第十四章 本科前三年回顾2021-2024</h2><p id="11dec3d8-3254-80a6-af63-d55c397ff77f" class="">        今天晚上没有太多的事情可以做，于是又打开了这一篇文档，想要补充些什么内容。也就是随性写一些，不求什么章法道理，权当作抒发情感了吧。</p><p id="11dec3d8-3254-8094-9c01-c6d4225da22d" class="">         近些天又到了一年一度的奖学金评选的时间，不出所料，又是一种奇怪的氛围笼罩在医学院的上空。倒也不是自命清高，我还是一如既往的申请了不需要抛头露面的国家励志奖学金，选它是因为门槛不高，而且不需要假模假样的去扮演品学兼优的三好学生，去编造拼凑一份优秀的简历去做汇报。要说起来还是内心带有一丝的惭愧，毕竟经济困难生的评选过程里面还是掺了一些水分的，不过在这样一个人人只顾及自己利益的地方，不那样做反而显得有些异类。呵呵呵。罢了罢了，都各自安好吧，各自能够获得自己想要获得的利益，就好了。</p><p id="11dec3d8-3254-80bb-986b-e0e005dc8e7b" class="">回顾一下这几年的成绩：</p><table id="11dec3d8-3254-809e-a303-ecdef35045e2" class="simple-table"><tbody><tr id="b0ec901f-1ad9-4b49-a49f-4c171c80de36"><td id="g|ZD" class=""></td><td id="G:c[" class="">第一学期</td><td id="rZ\J" class="">第二学期</td><td id="kXB|" class="">学年</td></tr><tr id="0e574361-96e4-444c-8587-67ebb39e390c"><td id="g|ZD" class="">大一</td><td id="G:c[" class="">57</td><td id="rZ\J" class="">87</td><td id="kXB|" class="">72</td></tr><tr id="8f9be253-e895-4405-8160-caf1e4007dd4"><td id="g|ZD" class="">大二</td><td id="G:c[" class="">45</td><td id="rZ\J" class="">15</td><td id="kXB|" class="">30</td></tr><tr id="11dec3d8-3254-805f-8f7c-db0357224845"><td id="g|ZD" class="">大三</td><td id="G:c[" class="">40</td><td id="rZ\J" class="">1（?）</td><td id="kXB|" class="">13</td></tr></tbody></table><p id="11dec3d8-3254-806b-91bf-e5fe09b844fd" class=""><em><strong>值得一提的是，其中第二列“第二学期“成绩是估计值，做参考用。</strong></em></p><p id="11dec3d8-3254-8065-9c5a-e10384cd013b" class="">
+</p><p id="11dec3d8-3254-803a-9325-c59f90557749" class="">         尝试使用R绘制了下面所示的成绩曲线图，哈哈哈是够闲的。。。整体上来看是进步的，虽然过程是有些曲折，但不论如何，不能够妄自菲薄，也不能太飘，谁知道这种情况还能不能持续，这是无法逃避的一个问题。摆正态度来看待这样一件事情，现在回看奋力追赶的这些时间，我发现我花费了大量的时间来做这样一件事情，结果好当然值得欣喜，但你必须意识到这样做的弊端，就是对知识的掌握是不牢固的，距离能够真正的应用这些知识去分析解决问题，还有很大的距离，或者讲白了，你现在只是做到了能够比较自如的应付考试，这显然不是我的最终目的。</p><figure id="11dec3d8-3254-809a-899a-dfd13c313187" class="image"><a href="image.png"><img style="width:480px" src="image.png"/></a></figure><p id="11dec3d8-3254-8002-a0ce-db7d9fd93086" class="">为了解决这一问题，你需要进行新一轮的思考。</p><p id="11dec3d8-3254-800a-ac9f-c801e8217054" class=""><em><strong>与你共同竞争的人们，有什么样的资源？</strong></em></p><p id="11dec3d8-3254-8078-be9e-ead5d5665b6b" class="">        现在考虑这一个问题，他们或者有着殷实的家底，父母又有着各种资源，能够及时的把本专业相关的热点前言信息向他们推送；或者在我前几年我为成绩焦头烂额时，花时间在科研方面取得了能够拿的上台面的小成就（虽然水不水大家都心知肚明）……真是人比人气死人。。。<em><mark class="highlight-yellow"><strong>面对这样看起来一团糟的处境，我想我要做的第一件事情就是冷静下来，不能自己乱了阵脚，理清楚现在最重要的事情，然后开始去行动就万事了。这正是我现在在做的事情。</strong></mark></em></p><p id="11dec3d8-3254-804a-b562-df61796bbda5" class="">         我想，我对“现在“一词的定义，现在可以宽泛到本科阶段。这一阶段所有事情的目标，就是为研究生时候的选择做铺垫，虽然很功利，但却是总是这样。围绕这样一件事情，我想无外乎有两件事情是最为核心的：</p><p id="11dec3d8-3254-8069-bcbd-e9ef4b07cecc" class="">下面围绕上面提及的内容结合现在的处境，展开讨论：</p><ul id="11dec3d8-3254-80f6-b6d4-cca253c3e4db" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-default"><mark class="highlight-blue_background"><strong>学习成绩，这是一个很无聊但难得能显示出公平的参考指标。</strong></mark></mark></em></li></ul><p id="11dec3d8-3254-80f8-b9c1-d66e4b19ec26" class=""><em><mark class="highlight-default"><mark class="highlight-blue_background"><strong>1），本科学业成绩</strong></mark></mark></em></p><p id="11dec3d8-3254-804a-9d36-f2f91a568d8b" class=""><em><mark class="highlight-default"><mark class="highlight-blue_background"><strong>2），英文水平</strong></mark></mark></em></p><ul id="11dec3d8-3254-808d-a3d1-fecfde5b230a" class="bulleted-list"><li style="list-style-type:disc"><em><mark class="highlight-default"><mark class="highlight-blue_background"><strong>科研成绩，一个本科生的科研成绩，懂得都懂</strong></mark></mark></em></li></ul><p id="11dec3d8-3254-8012-911f-e7a14a63adf7" class=""><em><mark class="highlight-default"><mark class="highlight-blue_background"><strong>1），本科生科研项目</strong></mark></mark></em></p><p id="11dec3d8-3254-8084-ab10-e1b6197914f7" class=""><em><mark class="highlight-default"><mark class="highlight-blue_background"><strong>2），所接受的科研训练</strong></mark></mark></em></p><p id="11dec3d8-3254-80c0-ba79-e4c55dba6a71" class="">         学习成绩，这一方面又包括本科学业成绩，简单说就是课业考试的成绩，尤其是专业课方面。这没什么好说的，这是作为一名学生的本分。另外一方面，是我反复提及，反复下定决心，结果反复不了了之的，英文成绩，具体到我当下的处境当中，就是六级考试的成绩，这是目前来看比较好的英文水平的证明材料，我需要把这一项内容的优先级提升起来。</p><p id="11dec3d8-3254-80a2-b8b5-d856a120d37c" class="">         另外一方面，就是科研成绩，同样的，这一部分内容也包含两方面的内容，一方面是本科生科研项目训练，讲白了就是大创项目，我参加的那一个项目吧，勉勉强强还能凑上去，虽然有些牵强，但是这一内容目前的可改变性实在是太小了，为之焦虑可以说没什么用。另外一方面，是自己在本科阶段所接受的科研训练，这方面内容，按照哦目前的理解的话，基本就是写基本的数据分析软件的使用等等，还有一方面大概就是循证医学讲授的内容，循证医学所讲授的内容看起来确实是和科研训练有些相关的，还是值得仔细地研究的。</p><p id="11dec3d8-3254-807d-807b-da6aff19da5c" class="">综上所述，应该有如下结果：</p><p id="11dec3d8-3254-80d2-9297-e5f83e5d1000" class="">正如表格所陈列的，现阶段重要的事情就是上面所陈列的几项。</p><p id="11dec3d8-3254-807d-88e3-ec81dca2b96b" class="">当然需要注意的是，上面几项内容<em><mark class="highlight-yellow"><strong>是重心，但不是全部，许多其他的事情也是需要兼顾的</strong></mark></em>，这一部分内容将会在下一次打开这个文档的时候来完善，今天先到这里。</p><p id="11dec3d8-3254-8011-b2e9-dd1c568f379c" class="">阿弥陀佛</p><p id="11dec3d8-3254-8030-be1d-fe306c546139" class="">2024年9月23日星期一晚</p><p id="11dec3d8-3254-8082-ae71-e25257f49971" class="">寝室</p><hr id="120ec3d8-3254-8038-b558-d3755357c3ac"/><h2 id="124ec3d8-3254-8041-9d97-e68a5da87ed0" class="">第十五章 南开大学105周年校庆志愿活动记</h2><p id="120ec3d8-3254-8050-950f-e1632113343e" class="">今天是2024年10月16日，南开大学105周年校庆日。</p><p id="120ec3d8-3254-80f1-99a2-e74484d01b85" class="">         本来是参加了校庆相关活动的志愿者的，但很遗憾的是对接的嘉宾今天临时有会议来不了了，，，不好说，我感觉这里面有很多因素，不单是有会议吧。前期的沟通里，嘉宾有提及他好像记错了时间，记成了15日，再考虑到今天早上突然取消了校庆日的行程，怀疑可能是嘉宾确实记错了时间，校庆安排和原有的日程冲突了，所以不能够来参加。此外，我们的沟通也存在一定的问题，例如未能够及时的把16日的具体安排及时的告知到嘉宾，直到晚上才发送一些日程，可能让嘉宾感到仓促，这是不妥当的，下次应该注意。此外沟通中的用词、语气、频率等等把握的也都不甚好，这些都是需要在日常中Get的点。</p><p id="121ec3d8-3254-8074-9a57-ce36f1368a2a" class="">        总而言之，很遗憾这一次校庆的活动未能以一个很好的体验结束，希望能够从中学习到一些经验教训，在下次面临类似场景时从容面对之。</p><p id="121ec3d8-3254-80c6-a6a7-d821662ee259" class="">         阿弥陀佛</p><hr id="121ec3d8-3254-8023-b5db-cc9ac35e22b8"/><h2 id="121ec3d8-3254-8057-a3a7-fb0bafb9150f" class="">第十六章 复盘内科学2-2期中考试</h2><p id="121ec3d8-3254-80fd-b751-cc7e9b094aba" class="">         10月14日结束了内科学2-2的期中考试，结果不甚理想，因为有许多Point出现错误的方式令我感到唏嘘。。。</p><p id="121ec3d8-3254-80d4-abcb-fa5f60ce4bf1" class="">         现在去回想的话，问题应该是主要集中在选择题目当中，一些基本的理论知识，你掌握的并不是特别良好，比如所谓轻度低钾血症的神经肌肉症状，你卡住了，不会，瞎猜还猜了最不靠谱的一个。。。再有共用题干题目，病例当中的关键词你没有能够抓准，抓了少尿，然后，嗯，对，都错掉了，其实应该是贫血，如此起码对于这一道题目来说，三个小题都是可以匹配到合理的答案的。阿弥陀佛。</p><p id="121ec3d8-3254-804b-91d7-ea83f31a4f7a" class="">         现在来想的话，感觉主要的问题还是一方面出在基础知识的储备当中，还有另外一个方面的问题就是，不能够在考试的时候冷静的分析，做决策，显得有些慌乱，进而导致错误的发生。我觉得这是在本次内科学期中测验中需要着重注意的两点问题。</p><p id="121ec3d8-3254-80d7-ab28-dcc237df254a" class="">         关于其对策，我想也应该从两方面去考虑，其一，对于基础知识掌握的不牢固的问题，我觉得，这个没什么好说的，就是需要在平时去留意一些你觉得比较细小的点，但是其实对于高经验的人而言，是非常关键的点的这样一些内容，把握好这些内容我想对于应付考试来说，会容易许多。其二，是考试时不能够冷静分析，做决策的问题，这我想是一个人成长的过程当中所必须要经历的阶段，或者说就是所谓的年少轻狂的这一个阶段，有一股风风火火闯九州的势头，最后却被自己胡乱敷衍下埋下的雷给伤害。。。我想我现在就大概处于这样一个状态。希望能够尽快的调整过来，以一种成熟的方式去应对问题——外表可以张扬，但内心必须足够缜密。</p><p id="121ec3d8-3254-80f6-aa82-e743f9ca7feb" class="">         加油吧，在校学习的时光只剩半年了，珍惜之，善加利用之，希望能够在这段时间里面，取得长足的进步！</p><p id="121ec3d8-3254-80e4-bc95-e8671f3d95af" class="">         天空没有极限，对吧？😀😀😀</p><hr id="121ec3d8-3254-80c3-9ee2-d33283c0242c"/><h2 id="124ec3d8-3254-8054-af70-cbb8b6972971" class="">第十七章 院庆讲座-收获</h2><p id="121ec3d8-3254-801c-8f5b-e718d2fae3f9" class="">本来打算今天晚上进行外科学期中考试内容的复习，但是因为一方面今天的论坛中我确实学到了许多新的观点和知识，另一方面时间也有些晚，不划算折腾半天去教室，所以索性就回来计划着把今天的收获简单的总结一下，供现在的自己思考，也希望能够为来日的自己带来启发。</p><p id="124ec3d8-3254-8067-b863-cc0dc87c4530" class=""> 下面是几个我认为比较重点的点：</p><ol type="1" id="124ec3d8-3254-8010-ba75-d975ac78c203" class="numbered-list" start="1"><li>跨学科知识的迁移与联系、联系不同学科、理论之间的互通之处（本质与表现的不同）【张英泽、南开大学，院士】</li></ol><ol type="1" id="124ec3d8-3254-8098-adbe-e0a2a9c68cd2" class="numbered-list" start="2"><li>复杂系统建模、自下而上（微观、宏观）、根据同形性简化模型【陈昱，东京大学，教授】</li></ol><ol type="1" id="124ec3d8-3254-8035-bad2-ce276707161d" class="numbered-list" start="3"><li>临床工作中的创新，从临床工作中发现问题、勤加思考，解决问题【李春宝，解放军总医院，教授】</li></ol><ol type="1" id="124ec3d8-3254-806e-931d-fdefbdea5759" class="numbered-list" start="4"><li>简单扼要的演讲风格【颜永康，西弗吉尼亚大学，教授；管国强，宾夕法尼亚大学，教授】</li></ol><ol type="1" id="124ec3d8-3254-80c8-a10d-d2776e19068b" class="numbered-list" start="5"><li>标准化在科研当中的重要性，不要闭门造车，自己玩自己的，要与国际世界接轨，互相促进发展【康健，中国标准化研究院，研究员】</li></ol><ol type="1" id="124ec3d8-3254-807e-80ce-e4a6c9440c44" class="numbered-list" start="6"><li> 人工智能是第三次工业革命，毫无疑问这是将来医学、临床发展的大趋势【唐佩福，解放军总医院，院士】</li></ol><ol type="1" id="124ec3d8-3254-805b-95cd-e375ebe7d0ae" class="numbered-list" start="7"><li>生物力学的广阔研究、应用前景【张西正，军事科学院系统工程研究所，教授】</li></ol><ol type="1" id="124ec3d8-3254-8011-a88a-e1f3ed3c307e" class="numbered-list" start="8"><li>血液干细胞在临床中的应用前景、抗衰老等【程涛，中国医学科学院血液病研究所，教授】</li></ol><p id="124ec3d8-3254-8092-8f6c-d7a44e35ed9c" class="">如上。</p><p id="124ec3d8-3254-806c-95eb-f4bf98ee1ea4" class="">希望这些观点和知识能够在将来某一天从我心头闪过，为我指引方向。</p><p id="124ec3d8-3254-801c-a771-d12ffb84e75e" class=""><em><strong>                                                                                                                                                                                                                                                                                                                                        2024年10月19日，南开大学医学院35周年院庆</strong></em></p><hr id="124ec3d8-3254-8019-9692-dd7bf259c8c9"/><h2 id="131ec3d8-3254-8050-bbbf-f5cf8476fb9a" class="">第十八章 科目二过了</h2><p id="121ec3d8-3254-80d9-a2b1-ee47c4f4e8a2" class=""> 我想要是为这一部分内容写一个一句话的总结的话，就是“驾照考试的新突破与相关内心矛盾的疏解”。</p><p id="131ec3d8-3254-80e9-a391-ef4ea1e0b947" class="">           关于前者自然是没有什么好讲的，这是花费了好多时间与精力，最后用金钱达成一件事情，我想现在来看，问题主要在后者，就是你自己关于科目二既花费了时间与精力，也搭进去了金钱这一件事情的矛盾，就是这样一件事情让你心里不是很舒服。我想至此“病因”算是明了了。</p><p id="131ec3d8-3254-8000-89b4-ef89d94cab9a" class="">           首先需要把握住的是，事情既然已经到了现在这样的地步，再去纠缠是不理智的。最初报考驾校时，计划内是自己去考试的，但是因为在这之后的一段时间内，发生了许多事情，我在考虑如果仍然按照之前的打算，一旦出现一点失误，我就需要搭进去更多的时间，少则半月，多则不可估计，加之失败对于自己内心的影响，可能波及日常生活中的许多事物。我想这些都是需要纳入一次考试的成本当中的如果这样去考虑的话，我想花费一定数量的金钱去达成这样一件事情是没有问题的。</p><p id="131ec3d8-3254-8030-acd5-ecc880a9f69e" class="">          再次，计划内本年度需要考取驾照，因而时间在某种意义上是具有一定的优先级的，<mark class="highlight-brown"><strong>节约时间是我与花费金钱相比较更加看重的问题。</strong></mark><mark class="highlight-default">至于如果你想要问自己，你现在没有收入的情况之下，哪里来的对金钱支配的如此的“无负罪感”，我想我对这个问题的解释是，时间和金钱孰轻孰重还是需要拎得清楚的，现在你的身份是一名在校的学生，我想在这样一个阶段，花费大量的时间在考驾照这样一件</mark><mark class="highlight-brown"><strong>虽然会带来长期的收益，但是没有必要花费大量时间的必要的事情，</strong></mark><mark class="highlight-default">是不聪明的决定。对于金钱，我认为我每年或者说，每个学期都有一定额度的大额花费在计划内，本学期的大额支出现在来看就是分配到了考取驾照这一块，目前的预算是1200元（科目二、科目三行贿），加上之前的刷学时的花费300元，合计1500元，虽然比往年的大额支出预算都要高一些，但是我想还是在一个可以接受的范围内的，至于为什么我对钱如此的不看重，，，我想一方面是前面提及的对这件事情的重要性的考虑，另一方面就是每年都有一些奖助学金的收入，大概万余元，花在这里，也算是个好去处，起码算不上挥霍掉。</mark></p><p id="131ec3d8-3254-8056-88fc-d38417fbd3ac" class="">如上所有便是我对于这一件事情的思考，不得不说，像这样捋一下整个思路，会发现内心的纠缠会解开许多。继续加油吧，尽快把驾驶证拿下！</p><hr id="131ec3d8-3254-8075-a76d-c077e3db510c"/><p id="131ec3d8-3254-8038-906d-dfb2f6bc5ddf" class="">
+</p><h2 id="131ec3d8-3254-809e-ad98-d4b113bc5eb7" class="">第十九章 理财踩的坑太多啦！！！</h2><p id="131ec3d8-3254-80f7-b8be-f61732c81f89" class="">因为每年的奖助学金我都会积攒一部分，加上我平时也没有太多花销，所以生活费也会有些结余，总之现在手里也有一些闲钱，于是，饱暖思淫欲，就开始瞎搞了，现在是非常痛苦的韭菜，每天看着收益上下浮动，但是距离回本遥不可及，内心的难受真的，没地方说去！</p><p id="131ec3d8-3254-806c-9314-e183bcb2fa32" class="">吐槽归吐槽，踩过的坑还是得及时的复盘，不然同样的错误犯好几次才能记住，虽然能长记性但是成本还是太高，毕竟都是要交学费的。。。</p><p id="131ec3d8-3254-8040-b2f4-ebc74fb749c5" class="">我现在的理财大概分四类，可能不严谨，但自己能得分的清就好。</p><p id="131ec3d8-3254-80c2-ae26-dba94a84d1b2" class="">1，银行定期2W，没什么好说的，三年定期</p><p id="131ec3d8-3254-80e2-9279-ed99ebb7b168" class="">2，零钱通、余额宝类，每天算是有固定收益</p><p id="131ec3d8-3254-800e-95e5-f0f56f35ebed" class="">3，基金，同花顺基金2K，银行1.2K，支付宝1.2K，损失惨重</p><p id="131ec3d8-3254-805d-b906-e46db3dfc945" class="">4，虚拟货币，本金1K，现在基本稳定在220U，策略存在不足</p><p id="131ec3d8-3254-80c8-8972-e42095952314" class="">如上是现在的资产合计，今天纳入讨论的主要应该是后二者，尤其是虚拟货币，基金的话，权当作交学费了，等到回本立即撤出，再不碰了呃呃呃。关于虚拟货币投资的思考如下</p><p id="131ec3d8-3254-809b-b9c5-f555df9430b3" class="">虚拟货币许多人讲这是纸上富贵，没什么实际的作用，但是如何去说呢，它还是有一定的购买能力的，当然目前不能和传统的货币比肩，但我想这种形式，在未来某天肯定会体现出它的价值，因而我认为在它上面花费一些时间还是值得的。</p><p id="131ec3d8-3254-80c8-a6de-d98473bae1a0" class="">          我大概是在2022年2月进入这一领域，当时还是啥也不懂（现在好像也差不多呵呵呵），买入了1000元，折143U，购买了比特币，后来不知过了多久，迎来了一波小牛，最高到了260U左右，最后还是没有把握住，涨涨跌跌最后到220U，后来又瞎玩山寨币，也是涨涨跌跌，现在基本就是保持在220U上下的水平，期间印象最深就是大概一个月前OG代币飙升，浮盈最高达到过340U，但是因为自己把握不了，最后一直跌到220U，肠子都悔青了，得多久才能等到这样的行情啊。前两天TROY也迎来一波涨但是也是没有把握住，浮盈最高240U，也是都从手里跑掉了。</p><p id="131ec3d8-3254-8057-9dcd-dcce1f14b20f" class="">           一个月内的两次大起大落，让我不得不仔细的思考我的投资或者说投机策略（哈哈哈）是否得做出改变，这很重要，因为同样的空欢喜一再的发生，这说明我们买入和卖出的决策做的并不是很好。在这个市场当中，这两个决策以我现在的认知，或者说一个投机者的认知来看，就是最重要的，真正的投资者会对项目进行考量，而像我一样的投机者往往就是盯着涨幅榜、还有一些跟风投资，毫无疑问这一部分项目大多都是山寨币，它们的特点我想就是波动大，这就给了我这样的投机者机会，在上下波动中获利，但是这也有不足，就是小额的投资，往往受制于庄家或者大额投资者的决策。它们大举买入，我可以获利（往往是半道上车，不能够享受全涨幅的收益），相反它们如果大量卖出，那我指定是要亏的（一瞬间可能就腰斩），就是在这样的投机者和庄家之间的博弈之中，一方获益，一方亏损。这是山寨币的特点，<strong>简单说就是，风险大，收益高，做决策需要果断，见好就收，不适合长期持有。</strong>与山寨币相对的，就是比特币这一类的虚拟货币，它们市值大，价格高，涨幅肯定很少会像山寨币那样时不时冒出来好几倍的，但是长期持有，稳定，收益波动小，尤其比特币，ETH（玩的不多）等等。再有就是USDT，它和美元挂钩，我把它作为中转货币——姑且这么叫它吧。</p><p id="131ec3d8-3254-808f-8dec-cf1ade1f5ad0" class="">           我现在玩山寨币比较多一点，还没成什么气候，主要原因就是不能果断的在盈利以后全身而退，一直拖拉，直到回到原点，在这里我觉得就是要强调你作为一个投机者的身份，见好就收才是你的策略，别人讲，一个人赚不到认知以外的钱，我想对我来说，就是贪，结果损失更多，<mark class="highlight-yellow"><strong>你的收益逐渐增多，风险也在累计，当风险超过收益时，还不撤就是等死！！！</strong></mark></p><p id="131ec3d8-3254-80b4-bf45-c672fe04b22f" class=""><mark class="highlight-red"><strong>总结一下，玩山寨就是四个字：</strong></mark></p><figure id="131ec3d8-3254-8073-8adc-e527033f5c4c" class="image"><a href="image%201.png"><img style="width:672px" src="image%201.png"/></a></figure><p id="131ec3d8-3254-80ba-8a45-f962de09076b" class="">                                                                                                                                                                                                                                                                                                                                                              <strong> 2024年11月1日，损失10U痛心思考</strong></p><p id="121ec3d8-3254-80cd-b9aa-eee026b9339c" class="">
+</p><hr id="131ec3d8-3254-80eb-9cec-e3bedc36fd46"/><p id="131ec3d8-3254-80fe-90c8-eda2b0cc643f" class="">
+</p><h2 id="121ec3d8-3254-8083-a5c7-f684435714a5" class="">第二十章 危重症考试结束</h2><p id="b7824df8-8a76-421d-bf24-dea241cc967f" class="">遗憾在所难免，尚且在可以接受的范围之内，倒也不必要太焦虑懊悔，毕竟时复习过程中忽略掉的一些细节内容，，，太细节了以至于你忽略了它们。。。</p><p id="136ec3d8-3254-8058-bc90-d2d6bace6326" class="">这应该归因于你在第一次系统回顾的时候没有特别关照到这一些内容，以至于你在加下来的复习当中一直对这些问题保持了忽略的态度，正是这样的过程导致了考试当中出现问题。</p><p id="136ec3d8-3254-805b-886e-f9b5fea030f1" class="">还是那句话，遗憾在所难免，追<mark class="highlight-brown"><strong>求完美本身就是不完美</strong></mark>，容许这样一些小问题的发生，这让你对这些问题更加的注意，某种角度上来说，未尝不是一件好事。</p><p id="136ec3d8-3254-803d-ab91-d10de415744f" class="">阿弥陀佛。</p><p id="137ec3d8-3254-80a0-b394-e50826a5d7e5" class=""><mark class="highlight-teal">我想我在这一问题上的思考，存在欠缺。在今天（11月7日）和杨的交谈时，我们然我意识到自己长期以来存在的一个问题，就是过分的专注于应付考试而忽略了对知识本身的掌握。换言之我除去能做题之外，似乎会的确实不多，更严重的问题是，我现在连做题也不能够完全的得心应手，应为我</mark><mark class="highlight-red"><strong>长期以来的应试思维导致我现在对一些基本的或者讲作为医学生素养的内容，并没有熟练地掌握，</strong></mark><mark class="highlight-teal">这无疑是一件非常糟糕的事情。我早就发现了这件事情的苗头，在今天的杨的交谈中，我发现自己的这种情况到了一种可以说有些危险的地步，我想你必须要提起足够的注意去关注这一件事情。</mark><mark class="highlight-red"><strong>这非常重要。</strong></mark></p><p id="121ec3d8-3254-8077-882e-d140b749f0a1" class="">                                                                                                                                                                                                                                                                                                                                                                                                               2024年11月6日</p><hr id="137ec3d8-3254-8039-8107-f63202c2afa3"/><h2 id="137ec3d8-3254-806a-aaea-c85bff95f1d5" class="">第二十一章 体测结束了 和欣的交谈</h2><p id="137ec3d8-3254-8050-bf52-e907efd9fc9c" class="">好说歹说，算是把体测这一关过掉了，这几天还要关注一下立定跳远的成绩，因为不知道为什么，在刷零以后在软件上一直没有显示成绩，明天或者周六再去查看一下，确保这一部分的成绩不要出现差错，导致整个成绩失效。在这里需要特别感谢杨对这一次体测的支持和帮助，对其感谢会在之后兑现的。这就算是第一件事情了，另外一件值得一提的事情是在下午体测结束后和杨在一食堂偶遇了和杨同寝室的欣，有一些简单交谈。谈到他体格的巨大变化时，他讲到他每天的安排，包括一日三餐、早起锻炼等等，听他讲我真的感到自愧不如，别的姑且不论，就他的这般能够坚持下来的毅力，就足够让我敬佩的，确实我觉得用敬佩这一个词语来描述我的这样一种心情是毫不夸张地。此外他还谈到了自己接下来的计划，大概就是把重心向学习这一侧偏一些，并且他还分享了对大学五年级的初步的想法。我觉得他的观点有一部分是值得考虑的，包括他所讲到的对于选择一中心所带来的收益与付出的不平衡以及选择人民医院的一些相比较而言的好处，我想这些内容是值得去考虑的。暂且抛开今天交谈的内容，而来看待欣这一个人的话，我想他最让我印象深的就是他的<mark class="highlight-orange"><strong>计划意识和强大的执行能力</strong></mark>，虽然可能有时候结果会产生一些偏差，但是这并不会影响他在计划和执行方面的优秀，我觉得这是一件值得学习的事情。最后，能够认识像欣和杨这样的朋友，我觉得是一件非常令人开心的事情，祝愿他们生活愉快，学习顺利。</p><p id="137ec3d8-3254-80cd-96a8-d06ce17f109b" class="">                                                                                                                                                                                                                                                                                                                                                                                                     <strong>          2024年11月7日体测日</strong></p><p id="121ec3d8-3254-803e-a2f7-e74631203b76" class="">
+</p><p id="121ec3d8-3254-80c7-89af-e66005dfb265" class="">
+</p><hr id="13aec3d8-3254-8060-8622-c53de225f624"/><h2 id="13aec3d8-3254-8063-9e57-cc2d5e172e26" class="">第二十二章 与杨的闲聊和归途偶遇</h2><p id="13aec3d8-3254-80d3-b4ab-e3941c7a4c25" class="">谈起杨，他给我的印象一直以来就是一种匪夷所思的“拖沓”，但很奇妙的是，几乎每一件重要的事情他总能在他不慌不忙的进展当中，得到很好的处理，这一点确实很让人惊讶。对于许多事情，他都有自己的一套乐观的逻辑去理解，虽然许多时候在我看来有些难以理解；但是在其他的问题上，他又非常的敏感，能够发现别人潜在的或者暴露无疑的恶意，但是即使如此，他还是会暂时忍住，当作无事发生。对的，他就是这样一个人，倒不能说复杂、矛盾，但原谅我贫瘠的词汇库存里实在挑不出一个合适的词语来描述他。</p><p id="13aec3d8-3254-8058-99fe-f0e8c2b9b5df" class="">他能够和我大方的谈论自己的家乡。有时候会谈到一些自己的往事，甚至一些我自己看来算是比较敏感的话题，他倒也不避讳和我谈及，我喜欢他这样坦诚、简单，甚至我想要使用羡慕来形容这样一种感觉。挺好的一人。希望他如其名，佳乐佳乐，又佳又乐！</p><p id="13aec3d8-3254-80ed-807a-ee2c9f3902f5" class="">我今天与杨相伴去看了电影，火影忍者系列，据杨说是一几年的电影重映。因为我之前没有太多关注过这个动漫，了解的也不是那么多，总之权当作看乐呵，整体看下来还好，起码能看懂剧情，挺不错的（事实上只要我花钱去看的电影都只会评价挺不错的呵呵呵）。</p><p id="13aec3d8-3254-8028-8b7c-ce86532a38ce" class="">在电影结束后我们往回走的时候，杨谈到了他所在的县市时，提到了周边县城是贫困县之类云云，彼时刚好路过一堆穿着时髦的情侣，似乎女的听到了杨的话，丝毫不加掩饰的大笑，让人反感，其笑声如野猪咆哮，甚是炸耳，和她那一身时髦的打扮实在是不匹。杨继续讲着他的话题，我当作他没有听到，装作无事发生，岔开了话题。在快到校内的马路上，他突然说，他听到刚才那个女的笑了，嘴都快咧倒后脑勺了之类，我安慰说不一定是在取笑他，他并不觉得会有这样的巧合：在他刚说完她便开始因为其他理由发笑。的确，我也知道那个女的大概率就是在取笑杨，或者说直接一点，在取笑我们两个。无奈何，两个穷学生，可不谁逮着笑就笑了呗。阿弥陀佛。</p><p id="13aec3d8-3254-8044-a152-e23465256ee7" class="">人还是要变强大，才能远离被人嘲笑。</p><p id="13aec3d8-3254-8039-9859-eede4679299d" class="">不要去嘲笑别人。</p><p id="13aec3d8-3254-801c-9490-e9f6334a777b" class="">2024年11月10日</p><hr id="146ec3d8-3254-808a-b3da-ef8b508024b8"/><h2 id="146ec3d8-3254-8048-a359-dfd246128771" class="">第二十三章 科目三过了！！！</h2><p id="146ec3d8-3254-8097-9749-c967b5e945cd" class="">经过两天的起早贪黑，终于在今天，顺利的把科目三、科目四一口气都考过了，成功的拿下了驾驶证，完成了这一项本年度比较重要的一个计划内容。不管怎么说，还是值得高兴的，即便在这过程当中，遇到了一些让人糟心的事情，但，嗯，，结果好就行。应该在近期迅速的摆脱因为此事带来的生活等各个方面的影响，调整回正常的学校生活，继续完成学业。</p><p id="146ec3d8-3254-8015-be1b-ebb178c094d7" class="">整个考取驾驶证的过程，就当作是一堂深刻的社会实践课，教给你这个恶臭的社会是如何运作的，认识其肮脏本质，方能为自己在这个游戏当中掌握规则积累资本，备来日之用。</p><p id="146ec3d8-3254-80af-ba22-e97ccdc143ee" class="">呜呼！目前来看暂时是能够摆脱这个糟糕的环境了，回到校园当中，生活就简单多了，每天学习，吃饭睡觉，偶尔参加社交活动，多么滋润！</p><p id="146ec3d8-3254-8046-8049-e8366ae481f5" class="">珍惜之！</p><p id="146ec3d8-3254-80e2-a5ab-d1638221bb63" class="">                                                                                                                                                                         2024年11月22日</p><hr id="146ec3d8-3254-80fd-8e02-deadea669875"/><h2 id="146ec3d8-3254-80c4-b6bd-fa683a629028" class="">第二十四章 回到校园，享受生活！</h2><p id="146ec3d8-3254-802c-91cf-e66113000242" class="">从某种意义上讲，今天，或者说明天开始，是正式回归校园的一天，值得高兴！每天在校园里简单的生活真的让我太想念了，今天想到明天就能够回到那种简单的生活，现在在敲下这些字的时候，我都感到非常的激动。但是激动归激动，还是尽快冷静下来，今天好好休息一下，明天开始就要开始进入期末考试备考阶段，继续加油吧！！！</p><p id="146ec3d8-3254-807f-b2e4-c4d9ca425e25" class="">
+</p><hr id="149ec3d8-3254-8039-8b28-e640d3ca9602"/><h2 id="149ec3d8-3254-802e-a4b2-ed7984645bd4" class="">第二十五章 叶嘉莹先生辞世，痛悼</h2><p id="149ec3d8-3254-8058-b587-cb9824c5b64a" class="">叶嘉莹先生，在2024年11月24日下午辞世。是的，这一位从小到大听着的诗词大家，在她100岁时走了。</p><p id="149ec3d8-3254-805c-8cf6-fdef9294953c" class="">阿弥陀佛</p><hr id="149ec3d8-3254-80e4-a043-c61ec77d8054"/><h2 id="149ec3d8-3254-8096-bd45-c8f9e6d4d7d7" class="">第二十六章 爆仓了</h2><p id="149ec3d8-3254-8095-8525-d8cf727b3764" class="">玩合约爆仓了，哭！</p><p id="13aec3d8-3254-802a-99a0-cf496ea4e95a" class="">玩现货起码不会爆仓。。。</p><p id="149ec3d8-3254-808e-bc9d-c5359c00b20d" class="">记住在趋势明显的时候再进场，在趋势不对的时候要小心，准备跑。</p><h2 id="14aec3d8-3254-806d-90ce-cb172d901047" class="">第二十七章 天津初雪</h2><p id="14aec3d8-3254-80d4-9334-d9cbcbc18aa6" class="">2024年天津初雪，在11月26日晚上落下。</p><p id="14aec3d8-3254-80ba-8a73-f06412ad4ad2" class="">期待明早🥰</p><p id="13aec3d8-3254-80d9-ab86-fce33c222477" class="">补充，Nothing发生。。。</p><p id="157ec3d8-3254-80e5-adc2-fb2d8572bad3" class="">
+</p><h2 id="157ec3d8-3254-8052-a171-cb1fc70563a9" class="">第二十八章 与周的会面，高兴！</h2><p id="157ec3d8-3254-80d5-adeb-cd7071a2b2d2" class="">非常高兴在天津与高中同学周美乐有短暂的会面，她来考天津的市考，简单的请她吃了一顿饭，我感觉她还是那样的开朗哈哈哈，虽然已经有三年多没有见过了，但是自从一见到面，我们两个就一直在聊天，氛围非常好，我也是好久没有这样快乐的和人聊天了!</p><p id="157ec3d8-3254-80cd-901c-c2a185f64bc1" class="">从三年的大学生活聊到如今好久没联系的许多人的近况，也算是有了一些大致的了解，考公考研各自都在寻找着出路，也不知将来我们这些从一个教室走出去的同学们都将飞向何方，哈哈想的有些远了，不过还是归结起来祝愿大家都能有好的前程。当然还有我自己。</p><p id="157ec3d8-3254-801a-b666-f24d9808fc14" class="">阿弥陀佛！</p><p id="13aec3d8-3254-80f2-b063-e19c0130d174" class="">                                                                                                                                                               2024年12月8日</p><h2 id="13aec3d8-3254-801d-be44-d873977940a1" class="">第二十九章 逐渐的开始进行本学期最后异一阶段的冲刺</h2><p id="157ec3d8-3254-80e0-a39f-cd9cdf71ff02" class="">经过两三天的调整，现在休息的也差不多了，也是时候把鼓起精神开始准备最后一阶段的复习工作，争取能够为今年的学习生活画上一个完整的句号！</p><p id="157ec3d8-3254-8017-a9c1-e85546e854ea" class="">六级        1214        </p><p id="157ec3d8-3254-80b8-ad05-f0ed65bd2c1e" class="">预防        1225</p><p id="157ec3d8-3254-805b-98c2-ff81ebf13c10" class="">妇产科    1227</p><p id="157ec3d8-3254-8083-b105-dc314aeba8f6" class="">外科学    1231</p><p id="157ec3d8-3254-80b2-b432-c61d1294cd4e" class="">内科学    0106</p><p id="157ec3d8-3254-805f-a0a3-ddd9444d706d" class="">
+</p><p id="13aec3d8-3254-80e2-a41d-c98a0ab6be91" class="">That’s all.</p><p id="157ec3d8-3254-8022-82bd-def2dedc8023" class="">加油！！！❤️❤️❤️</p><p id="13aec3d8-3254-804f-a5eb-e6d6507c7b52" class="">
+</p><h2 id="13aec3d8-3254-8046-af08-cffb37f77aad" class="">第三十章 加密货币，黄粱一梦</h2><p id="13aec3d8-3254-8011-8d8d-d6bd250b6b76" class="">别人都说合约的尽头是归零，我不信。</p><p id="158ec3d8-3254-80fc-b8e6-f62a43c93b12" class="">现在我爆仓了，3000一夜之间变成30.</p><p id="158ec3d8-3254-807b-8685-d49aab1b2b78" class="">我信了。</p><p id="158ec3d8-3254-801f-99af-f7c5cacfa7f8" class="">
+</p><p id="158ec3d8-3254-80a5-aeaf-f08c20cfd028" class="">我自己的认知不足，当然这是多方面的，不光是对一些基本的经济学知识的了解欠缺，还有对整个虚拟货币市场的理解，现在还是处于一个很初级的阶段，这是导致我第三次爆仓（OKX一次，Binnance两次，这一次是Biance）的很重要的原因。</p><p id="158ec3d8-3254-80db-ba48-e3f46ea71d26" class="">虚拟货币市场波动性大，当然这意味着你有更多的机会，但是你把握不住，就会反而亏损，这里亏一点，那里亏一点，如果梭哈，一夜之间亏损就足以让你回到原地，够你难受的。</p><p id="158ec3d8-3254-80e2-a252-f71d517b202d" class="">
+</p><p id="158ec3d8-3254-80cb-86a1-f119b2efaf48" class="">说到底，是我没有准备好，就盲目的进入这一个市场，最后导致现在这样的结局。</p><p id="158ec3d8-3254-80f0-8217-ddadf7978b6a" class="">暂时退出，好好修炼，第三次归来，不会再带着更多的投入，从现有的十几U出发，重新开始。</p><p id="158ec3d8-3254-80f2-b6f9-e674c27e863d" class="">祝我好运。</p><p id="158ec3d8-3254-8054-bff3-cb40d6b523d5" class="">
+</p><p id="158ec3d8-3254-803a-829c-f279ed74871f" class="">
+</p><p id="158ec3d8-3254-806d-a6f8-e9192f66428b" class="">
+</p><p id="158ec3d8-3254-80c2-85fb-d47f6bdee25e" class="">现在先把期末考试应付过去吧😭😭😭</p><p id="158ec3d8-3254-803d-bc6e-dc9ef543f242" class="">
+</p><p id="158ec3d8-3254-805f-b1f4-c66bbcd0d2c5" class="">                                                                                                                                                             2024年12月10日</p><p id="13aec3d8-3254-806a-83bb-e0654acab79e" class="">休息几天，准备考试。</p><p id="13aec3d8-3254-8027-9e32-fd0f4c4e742e" class="">
+</p><hr id="169ec3d8-3254-8087-b66a-d14b1bbd7049"/><h2 id="169ec3d8-3254-80a1-bc46-c974822539d2" class="">第三十一章 呵呵呵  认了</h2><p id="169ec3d8-3254-803b-99e4-ee331aff740c" class="">考试划重点了，我背错了。</p><p id="169ec3d8-3254-8096-94d9-d69f24855369" class="">操！</p><p id="169ec3d8-3254-8005-8155-f6373e6beb25" class="">认了！</p><p id="169ec3d8-3254-80cd-8b1d-c261c223f319" class="">天意吧。</p><p id="169ec3d8-3254-807d-8b18-d0220dfde1d4" class="">问题的根源在于你把重点搞错了，，，准确说是把重点从A粘贴到B的时候，粘贴错误了。</p><p id="169ec3d8-3254-8062-8ef6-f1dc0b500ea1" class="">阿弥陀佛</p><p id="169ec3d8-3254-8031-91cb-fe9093f6b53e" class="">考完一问别人真的是哭笑不得，不过，又能怎么样呢。算作是上帝和我开的一个小玩笑，倒也不要太过于懊悔，丧着脸。</p><p id="169ec3d8-3254-80cf-be6e-cce9e00b97a7" class="">下一次，<mark class="highlight-red"><strong>一定注意第二次核对的必要性！</strong></mark></p><p id="13aec3d8-3254-8094-b7fd-d77ac91413e8" class="">(;´༎ຶД༎ຶ`)</p><p id="13aec3d8-3254-8085-bea0-dc62837e4d97" class="">
+</p><p id="13aec3d8-3254-803c-983d-da11e6ccdedc" class="">2024年12月27日妇产科惊喜</p><p id="13aec3d8-3254-80c1-8753-fe79caf112ae" class="">
+</p><p id="13aec3d8-3254-80ef-8df1-c6d6de38d594" class="">
+</p><p id="121ec3d8-3254-80a6-afab-d3a5430e019d" class="">
+</p><p id="11dec3d8-3254-8057-8000-dc078288c962" class=""><strong>【 加 油 ！！！】</strong></p><hr id="11dec3d8-3254-80a2-b6cb-dcbd1bcc307f"/><h2 id="11dec3d8-3254-804e-a722-f294096660c3" class="">第三十二章  2024—“破圈之年”</h2><p id="16dec3d8-3254-8059-b92e-cdb2c58077fa" class="">         今天是2024年的最后一天，考完了外科学的期末考试，无所谓了，并不去想太多。按照往年，我会在整个期末考试结束后，进行一整年的回顾，不过今年我想要打破这一个模式，在今天完成这一项总结——以时间的转变为核心而非仍然以考试为核心，当然也会简单的提及考试，毕竟它还算是我现在这一阶段的主业。</p><p id="16dec3d8-3254-8069-927b-cda5da36fedb" class="">         回顾整个2024年，也算是收获颇丰。虽然这种收获都并非是我一开始所构想的那样，但曲曲折折最后都算是实现了。首先是我觉得今年取得的比较大的一个成果，就是取得了驾驶证，曲曲折折几个月，搞得心神俱疲，不过最后还是拿下了，我觉得这是一件值得高兴的事情。另外一件比较值得高兴的事情，就是在学习方面，上半年的成绩应该是有明显的突破，非常接近曾经的目标，不过因为两个学期的成绩的叠加，使得优势不是非常明显，不过是好是坏自己心里还是有数的；第三件值得一提的事情，是自己在四月份，终于很下心，了断了一段令自己长久煎熬的情感困惑，至少斩断了自己的幻想，虽然现在想起来有些幼稚好笑，但你必须向前看，不能一直守在原地，生活还是要继续的，对吧。啊，差点忘记掉今年非常非常非常难忘的一件事情（呵呵呵差点就忘了），就是在5月3日，参加了邓紫棋（解解） 的”I am Gloria”天津站演唱会，我觉得这件事情是今年最难忘的事情，这次演唱会让我找到了某种意义上的精神支柱，我怎么能够忘记那许多个无助的时刻，我带上耳机聆听姐姐天空没有极限、孤独等等，从它们当中找寻继续坚持下去的动力。现在是第五件事情了，应当属于和靖阳在清明节时在北京相约，也算是踏青吧，圆明园、颐和园、天坛都逛了逛，因为时间仓促，不免有些潦草，走马观花的看了一看，希望来年有机会能够慢慢赏玩一番。在六一儿童节的时候，我咬咬牙，送了自己一份礼物——一台相机，毕竟是我人生第一台相机，我觉得是值得纪念的。暑假期间因为计划安排失误，留在了学校，无事可做，于是参加了继续教育学院的几次助管工作，获得了一点酬劳的同时，也算是初步的接触了”职场“，有些经历确实是需要积累的，很高兴遇到了郭苑平老师，她也算是”新入职场“，我俩就摸石头过河呗哈哈哈，现在想起来真是蛮有意思的……当然可能还有许多事情在某时某刻发生、让我当时印象深刻，但现在确实是想不起来了，姑且把它们留在记忆深处，也许哪一天突然就冒出来了呢。</p><p id="16dec3d8-3254-805e-a46f-eecefcdd89b7" class="">         满打满算接近一年没有回家了，说一点也不想是假的，毕竟那里有我的父母，有我的根。想到几天之后就能够踏上回家的路途，心里满是喜悦嘻嘻嘻</p><p id="16dec3d8-3254-80f8-9cc5-f99ebe8f05dc" class="">         总的来说，2024年有许多新奇的体验，踏出了许多好久不敢踏出的第一步，写到这里，我突然脑子里冒出来一个词语——”破圈”，也许把2024年称为“破圈之年”是个不错的选择哈哈哈，希望新的一年里继续尝试新的事物，丰富自己的生活，逐步地实现那些许久以来的愿望和想法！</p><p id="16dec3d8-3254-8059-9646-d48d7b4e91d4" class="">That’s all.</p><hr id="17cec3d8-3254-80a4-ac6f-e9a52e0d793b"/><h2 id="17cec3d8-3254-8047-a7bd-ccd782fcf33d" class="">第三十三章  2025新年期许</h2><p id="196ec3d8-3254-8026-9f96-ee5d4f43d08c" class="">我这人总是后知后觉，就比如现在已经是2025年2月10日，方才着手准备这一份新年期许哈哈哈。无所谓了，幸好还不算太晚。</p><p id="196ec3d8-3254-80a4-982c-dee9643bcb61" class="">
+</p><p id="196ec3d8-3254-809f-940e-c34c6190aeb8" class="">今年的大事大概有一下几件：</p><p id="196ec3d8-3254-805d-9bc0-ff046d12bb36" class="">1，本科在校内的学业将迎来终结</p><p id="196ec3d8-3254-80cd-af6a-c3f98010a76d" class="">2，本科进入医院实习的阶段开启</p><p id="196ec3d8-3254-80c3-9442-e83a02b86857" class=""><mark class="highlight-blue">在这里有今年需要做出的第一个选择：去哪一所医院</mark></p><p id="196ec3d8-3254-801f-b06d-d2c73ddd972d" class="">3，本科接近尾声，考虑硕士去向</p><p id="196ec3d8-3254-8022-ad5b-f21236c768b3" class=""><mark class="highlight-blue">这是我今年需要做出的第二个选择：去哪里以及选择血管外？普外？</mark></p><p id="196ec3d8-3254-8015-990d-c84ef266e9f6" class="">4，最后一个大概就是硕士录取了，这算是一个没有悬念的惊喜。</p><p id="196ec3d8-3254-80bb-a734-ef582bc677d4" class="">
+</p><p id="196ec3d8-3254-80e8-9912-fb6fc9cb3be2" class="">今年确实比较重要，因为这直接关系到我未来的发展去向，因而还是要认真对待的。</p><p id="196ec3d8-3254-8008-a961-c477df55468c" class="">着重考虑两个选择：</p><p id="196ec3d8-3254-80b2-b5d7-db0577008093" class="">第一个选择，选项只有一中心和人民医院，区别在于前者繁忙而会有少量补助，后者是南开大学附属医院且比较轻松（历届）……<mark class="highlight-red"><mark class="highlight-yellow_background">怎么看都是人民医院要更加靠谱一些</mark></mark>（补助不在考虑范围内，如此一来后者轻松将为我带来时间思考，这将很难得）。</p><p id="196ec3d8-3254-8004-acfb-e74558bebdff" class="">第二个选择，首先是医院选择，毫无疑问301是首选，人民医院次之；其次是专业，选择血管外如果能到郭伟导师麾下将是首选，普外科次之，人民医院普外优先于血管外，即：<mark class="highlight-red"><mark class="highlight-yellow_background">301血管外-301普外-人民普外-人民血管外。</mark></mark></p><p id="196ec3d8-3254-8064-85c0-eba69ed7b310" class="">
+</p><p id="196ec3d8-3254-8065-a2f8-d2d52cb9621c" class=""><mark class="highlight-teal"><strong><span style="border-bottom:0.05em solid">如上第二个结论得出以后，将需要进行针对性的准备：</span></strong></mark></p><p id="196ec3d8-3254-800b-b0c1-f3e3172052f9" class=""><mark class="highlight-teal"><strong><span style="border-bottom:0.05em solid">1，整理血管外科以及普外科当前背景下发展以及就业前景</span></strong></mark></p><p id="196ec3d8-3254-8089-9b62-c93d0f4f8b60" class=""><mark class="highlight-teal"><strong><span style="border-bottom:0.05em solid">2，301血管外科师兄（殷）求教申请难度以及注意事项</span></strong></mark></p><p id="196ec3d8-3254-80ff-aee6-d9a359e095a1" class=""><mark class="highlight-teal"><strong><span style="border-bottom:0.05em solid">3，（备）301普外科师兄（崔）求教申请难度以及注意事项</span></strong></mark></p><p id="196ec3d8-3254-80f8-9265-fb8562c8c7aa" class=""><mark class="highlight-teal"><strong><span style="border-bottom:0.05em solid">4，考虑后做出准备，应该尽早进行（拟于开学后就逐步开始准备）。</span></strong></mark></p><p id="196ec3d8-3254-80a9-bdfa-e136cabee3b5" class="">
+</p><p id="196ec3d8-3254-80bc-ab97-d1d9548e51b3" class="">总结来看，今年的大致路线：</p><figure id="196ec3d8-3254-808f-94ba-eef97cbdefed" class="image"><a href="image%202.png"><img style="width:709.9921875px" src="image%202.png"/></a></figure><p id="196ec3d8-3254-80fc-b166-fc9e7773b03c" class="">ps：实习时将会形成<mark class="highlight-default"><mark class="highlight-yellow_background"><strong>实习日记</strong></mark></mark>，也可能是<mark class="highlight-yellow_background"><strong>科室记</strong></mark>哈哈哈，到时候会另外开一个文件，只用来做这样一件事情的。</p><p id="196ec3d8-3254-80d7-b508-f96d8e4a43de" class="">
+</p><p id="196ec3d8-3254-80c6-b142-fb7e5a5dc723" class="">加油！</p><hr id="19eec3d8-3254-80e4-858f-d2a269cfdee0"/><h2 id="19eec3d8-3254-80bb-b4a8-d74d47bfa70f" class="">第三十四章 历史转折回顾-文字留影</h2><p id="19eec3d8-3254-80a1-91d5-dd10be09faf2" class=""><mark class="highlight-gray">         </mark><mark class="highlight-gray"><mark class="highlight-yellow_background">这一部分内容完整记录了 所有自2021年到2024年夏，在陷入困境当中的时候，我苦苦挣扎所撰写的自我情境分析以及许多反思总结内容，毫不讳言，这些内容很大程度上帮助我理清楚了需求与处境，在一片混乱当中找到求生之线索。我认为它们是我成长路上之弥足珍贵的宝藏，故今遍觅各个存储位置，找到下面这些内容，或许还有缺失，实在可惜，但也无力挽回，对于尚存的内容，当妥善存储，于是我将尚存的文档尽力找到，将其中内容原封复制于此，仅作格式调整，供自己来日查看，回顾来时之路。</mark></mark></p><p id="19eec3d8-3254-805d-929f-ce4ea5e3e157" class=""><mark class="highlight-yellow_background"><strong>目录：</strong></mark></p><figure id="19eec3d8-3254-8027-8d10-f2e9fea1e339" class="image"><a href="image%203.png"><img style="width:587px" src="image%203.png"/></a></figure><p id="19eec3d8-3254-8010-81ef-ce60a4a953e7" class="">
+</p><p id="19eec3d8-3254-8078-9d3c-ded6af463914" class=""><strong> 对自身当下情境的分析及对近期的规划</strong></p><p id="19eec3d8-3254-8059-b84f-f0d9f8b1f456" class="">前进的道路从来都不是畅平无阻地，试想从过去至今，有什么事是光凭着一腔热血就能够轻易实现的呢——无一例外，都必须付出大量的努力，尚且才能有一丝希望，在随便应付之下，终究是只能一事无成的。</p><p id="19eec3d8-3254-807b-af92-f0085a27524b" class="">对于前进路途中所遇到的困难，应该坦然视之，努力克之，被一点困难击退是极不明智的选择。就自身而言，现在的学医之路刚刚开始，肯定会有许多的不顺利的、困难的地方。别的姑且不论，就最近的，站在讲台上讲授的老师而言，他们是如何做到对知识的熟练掌握的？当然我们不奢望像他们一样，但对他们任然要持一种敬仰的态度，同时向自己发问，为什么他们能？正所谓:“不想当将军的士兵不是好士兵”，既然在有人在你之前已经做到了这样一件事，那么就可以说明这件事并非是似登天之难的，肯定的是可以通过我们的持续不断的努力以后达到的，因而不必对自己的目标产生怀疑，转而应该将更多的注意转向自身因素上加以考虑——是什么因素导致了当下的情境？该如何去改变当下的这种情境？现就这两个问题，结合自己近期的学习情况，做出如下分析：</p><p id="19eec3d8-3254-80e0-a937-deb130583d2f" class="">为什么会导致这样的局面?由于所选专业的特殊性，以及科目的要求，识记内容是非常多的，但其重要性是非常重要的——这些东西都是将来学习所必要的，。作为最基本的知识，是必须要掌握的，关键还在于对内容的识记上，这或是现在在迫切的困扰自己的问题。该如何改变这种局面？识记的确是一件让人讨厌的事情，尤其是对于各种枯燥的医学名词，更是让人无从下手，寻找到正确的方法是关键之举。针对此，提出以下几点对策：</p><ol type="1" id="19eec3d8-3254-8069-ba21-eb7a6acc5a6c" class="numbered-list" start="1"><li>宏观把控 首先要有一个系统的，标准的，无误的框架，从肉眼可见的角度对所学有一个整体的把握。例如对于系解，它在细胞→组织→器官→系统→个体当中就系统层面进行研究，，对此，我们首先要去构建一个人体的框架，在运动学部分先构建一个人体骨骼的框架，而后在之后的不断学习当中，再对其进行不断地完善与补充，这当中，对于各个器官，骨骼，等的形态，部位名称，重要结构以及重要临床应用需要识记，在系解学完之后，能够对人体整体有一个整体的，明确的认知，这是学习目标。对于组胚，它在细胞→组织→器官→系统→个体当中的细胞与组织层面进行学习，重在把握细胞的形态与组织的细胞构成，各细胞的特点等需要识记的内容偏多，完成此课程的学习之后，能够从组织层面对机体各部分功能与结构有更深刻的理解。除此之外，而后还将学习局解，完成上述三门课程的学习，将帮助我们正确的构建一个正常生理状态下人体的结构，为今后学习病理等各个内容打下坚实基础。理解当前所学的目的，建立一个合理的学习目标与预期，或将对此问题的解决提供帮助。</li></ol><ol type="1" id="19eec3d8-3254-8041-9199-ebc848a85126" class="numbered-list" start="2"><li>注重联系 这是很重要的一个方面，人体从来就是一个不可分割的整体，从小到大，自细胞到个体，相互之间有着千丝万缕的联系，包括但不限于整体与部分，结构与功能之间的联系。不可置疑，运用联系的观点来看待那么多枯燥的内容，或可以发现些许其中的乐趣吧。总之，运用联系的观点去看待这些问题，对于我理解与记忆应该是颇有帮助的吧。</li></ol><ol type="1" id="19eec3d8-3254-80b1-8fe0-e763b4d28e8f" class="numbered-list" start="3"><li>需要下功夫 如上所述，我们学习的目标在当下可以具体到：构建一个完整的人体模型。在以后的学习当中，我们将由现在所构建的模型出发，去研究各个部分在出现出现问题的状况，包括临床的一些应用，都或多或少的会用到此模型。因而其重要性，大是不必多言的，另外，可以看到此模型的构建的准确性非常重要，这就要求我们必须去掌握各个细节，不容纰漏，这必然是一个极度繁琐，费心费力，磨人的工作，但是我们必须要坚持下去！</li></ol><p id="19eec3d8-3254-8006-8415-e041a73385a9" class="">总而言之，明确我们现在所做的一切的目的：构建一个无误的人体模型，以供后用，仅此而已！</p><p id="19eec3d8-3254-80b3-b62a-c62e97881dd7" class="">基于此，可对之后的各项工作做出安排。愿成功！</p><p id="19eec3d8-3254-80db-8589-f9ab838681a1" class="">2021年10月14日</p><p id="19eec3d8-3254-8043-9d4d-c01b7e667215" class="">
+</p><p id="19eec3d8-3254-8010-be75-fecc2c4b97d2" class="">
+</p><p id="19eec3d8-3254-80ee-ab13-c85a78a5a0a3" class=""><strong> 夜·感</strong></p><p id="19eec3d8-3254-8025-b1bb-d3c6fd6974ab" class=""><em><strong><span style="border-bottom:0.05em solid">认识的全面与片面</span></strong></em></p><p id="19eec3d8-3254-80b0-8e57-ef410254ebd6" class="">不可否认，我们对于事物的认识不可能一步到位，必然的要经过一个漫长的，坎坷的过程，如此才能够真正的认识到其本质所在。</p><p id="19eec3d8-3254-8002-8476-c2ac286b74b2" class="">盲目的过早给出的论断，往往具有片面性，但对此仍然要辩证的看待，这种片面的认识是我们要达到全面认识所必须要经历的的一个过程，同时，这对我们对当下的认识会有不可替代的帮助作用。虽然这种模糊不清的认识状态，让人感到非常不舒服，但随着经验的不断积累，认识的不断加深，我们对这个事物的理解也会更加的接近本质。毫无疑问，那种接近本质的感觉是令人感到心情舒畅的，但在此之前，必须要经历一段坎坷与迷茫。</p><p id="19eec3d8-3254-8020-b750-eebf75f49606" class="">延拓到当前自身的情境当中来，我们正处于这样一个迷茫的探索阶段，令人兴奋的是，我们越来越靠近核心，认识也越来越深刻。因而大是不必去惆怅的，在妥善的安排之下，事情总是能过朝向好的方向发展的。</p><p id="19eec3d8-3254-8039-8c3d-d11264b5b205" class=""><em><strong><span style="border-bottom:0.05em solid">大道至简</span></strong></em></p><p id="19eec3d8-3254-80e2-aaa4-d9dc21452dfe" class="">大道至简，这是我所信奉的真理。往往地引发你的惆怅的真正原因，在于一些极细微的细节处，不可忽略，但又难以引起重视，终于形成祸患的根源，不是出现扰乱我们的节奏，让自己陷入迷茫与自我怀疑。而事实上，当我们下定决心，慢慢的，沉静的去解决这个问题的时候，往往又发现，困扰自己如此之久的，竟然是那样一些细节或者是显而易见的事实！当我们感到极度混乱时，往往地就是陷入了某一个漩涡，要想逃脱出去，就要关闭掉造成漩涡的漏洞——这正是我们所处的漩涡的中心，堵塞住它，才能停止混乱的继续发生。换言之，及时的自我反思与自我提醒，是帮助我们摆脱迷乱的极好方式。</p><p id="19eec3d8-3254-802c-950f-cf28e7d463d4" class=""><em><strong><span style="border-bottom:0.05em solid">反思</span></strong></em></p><p id="19eec3d8-3254-80b3-8b2b-cbeb7f1ff2a1" class="">就自身当下的状况而言，我愈发发觉我在朝着某个难以言说的方向发展，我感觉到这是极其危险的，甚至心态发生了极大的转变，这些变化的产生，极大的源自高中时期的最后一阶段的某些事情，它已经给我造成了极大程度的伤害，包括但不限于精神上的伤害——由它所引发的一系列事情，更是让我现在处在一种极为被动的情境之下。若要追本溯源，我现在的绝大部分消极情绪，都与那件事情有或多或少的牵连。而毫无疑问的是，这种莫名其妙的情绪，会极大程度的影响我的生活状态——虽然我认为我已经忘记了这件事情，在这种生活状态之下，我的生活又被这极度无聊的事情，搅的一团糟。</p><p id="19eec3d8-3254-806f-b20b-fa4a702f5ba7" class="">情绪对一个人的影响是致命的，尤其是恶劣的情绪，要想逃离这泥潭，就必须下得一番狠心!我不希望我变成一个颓废的人——仅仅因为一个女人，一个傲慢而极度自私的女人！</p><p id="19eec3d8-3254-80cb-a4bc-f9b1fb7b1091" class="">事实证明，在不同的圈层，你会遇到不同的人，与不同的人打交道，相比于与阿猫阿狗斗在半山腰智斗勇，我更向往站在峰顶俯视群雄。选择走这条路，它注定不会太容易，但需要知道的是，付出与回报成正相关，正如投资一般，投入的越多，当收获回报时，所获得自然也越多。在对自己的这一项投资当中，多了一份确定性——方向对了，相当于入了一个稳赚的股。这样一来，最后的收益有多少，完全取决与现在你愿意投入多少时间与精力作为“入股资金”，最后总归是可以获益的，这里的获益可以是多方面的，可以是爱情、事业、家庭等等。</p><p id="19eec3d8-3254-8090-a962-d54c0a35a325" class="">如上所述，我愿意在现在付出更多的时间与精力充实自己，把自己打造的更加优秀，去面见那个真正值得我一生相守的人。</p><p id="19eec3d8-3254-809e-8428-cebcbba09b09" class="">南开大学宿舍</p><p id="19eec3d8-3254-8098-a779-c041ae466a60" class="">2021年12月6日星期一</p><p id="19eec3d8-3254-80e1-a14c-da58ec1c2607" class="">深夜感</p><p id="19eec3d8-3254-80da-9aa1-f4188f2701fa" class="">
+</p><p id="19eec3d8-3254-8050-b5b1-c291008fe301" class=""><strong> 2022夏感</strong></p><p id="19eec3d8-3254-8084-876b-c193d55e1516" class="">今天，是再一次被隔离的第二天，又是极端无聊的一天，在封闭的空间里待得久了，难免心情低迷，做事情也是丝毫提不起兴趣，于是索性就不再做了，转而随心而为，想干啥干点啥，以消磨这时间。这不，百无聊赖之下，我敲出这些文字，也算是对刚刚度过的学期的小结，另外加一些对自己的一些审视。<br/>这个小结该写些什么，我想了半天，也没憋出个一二三来，最后觉得要不就先从头至尾捋一遍再说吧。<br/>现在反观这几个月，依然觉得很不真实，感觉所有的事情都被疫情打乱，每天都在忙乱之中，线上课线下课来回切换，搞得老师学生都身心俱疲；各种活动也都因为防疫之需求而变得极简化，已然失去了它原本该有的许多乐趣；三天两头的大筛以及每日不断的核酸抽检，让人苦不堪言。正是在这样的大环境之下，发生了许多令我印象深刻的事情。<br/>自2022年2月中旬日开学，先是坚持了两个周的线上教学，期间为3月初返校也做了许多准备。迫于当地疫情形势不稳定，不能自机场返校，我只能先到西安，短暂的停留之后，再自西安转向目的地，再由目的地的接站车辆，转运回学校。这路程虽也并不算复杂，但是来来去去还是让人感到疲惫。我记得我是在3月3日下午四五点钟到达的学校，大致是在当天早上五点多出发，至于其他的记忆现在已经模糊。原以为这艰难的返校之路能够为我带来在校时光的轻愉，但我错了。线下课体验卡只在两个周内，便到了期，而后便又是线上课，四月份又经历短暂的线下课，到五月中旬，疫情反复，再一次调整为线上课，来来回回折腾了几次，可以在上课时明显的感受到老师们的无奈，学生们也逐渐的麻木。这期间值得记录的几件事情，大抵有两件罢，五月上旬，五一假期市内人山人海赏樱花，而学校却死死封闭，引起了学生的极大抗议声，不免有一些过于激动的举动，甚至后来有人呼吁全部到国务院小程序上留言解封，说来也是，没过几天出入校政策有了松动，虽然并没有实质性的变化，但至少可以看出学生的运动是起了作用的。可惜，新的出入校政策实行没几天，本市大筛筛出了阳性病例，新政策自然被停止了，但是这一次学生们并没有闹，因为这是真正发生了疫情的。这是我第一次见识到学生集体运动的场面，而十几天后的事情，更加是刷新了我的认知。大概是再5月26日罢，当天晚上，天津大学的大量学生聚集，要求学校对现行政策给出解释，根据流出的视频，大概有几百人聚集，并高喊“打倒形式主义，打倒官僚主义”，引起了极大的影响，虽然在微博上，相关内容都被限制，但难免有视频会流出，有些好事之徒将之发到推特，被一些别有用心之人利用，也是招得一大群反华者围观。据说本校也有相关的活动策划，但貌似提前走漏了消息，听人说当天计划起事的地方有大量的便衣保卫，总之，这件事在本校并没有掀起波澜。但值得一提的是，在第二天学院便出了一系列解释文件，并发布了返乡申请。至于为什么会这样，都是不言自明的。<br/>究竟为何，我们引以为傲的“动态清零政策”，会变成现在这样一个人人内心嫌弃，但又不敢明说的东西？其原因大概你我都心知肚明，那些在红头文件里写的无比亲人的防疫举措，经过一级一级的落实，待到落地实施，已经将其本心丢了大半，剩下的都是最省事，最直截了当的举措。正如我现在的处境一般，从一个市里来，单单因为这个市里有几例阳性，便不问三七二十一拉去隔离，讽刺的是当地的风险区划定，精准到街道，到这里，便夸大到市。真是荒谬。看似实在践行防疫政策，实则不过是免得担责而一刀切死罢了。而我，也只能以这样一个悲催的结局，作为我这起起伏伏的一个学期的收尾。<br/>我的一个学期就这样结束，以一个并不会让人感到特别愉快的形式，为它画上句号。<br/>人与天搏，能搏的过吗？本就归属自然的东西，非要强加人为干预之，实在可叹。<br/>注重形式本无可厚非，但某些人总是能够将之曲解，注重些毫无用处之事，并且甚至会以此为傲，呜呼哀哉。<br/>想将来某日，这无处不在的形式，将成为颠覆一个神话的命门。姑且让我们静心等待罢。<br/>2022年5月31日午<br/></p><p id="19eec3d8-3254-80ce-8c46-ed729b0da38c" class="">
+</p><p id="19eec3d8-3254-80cd-8f22-c0e49c3d0808" class="">
+</p><p id="19eec3d8-3254-8060-bb3d-db5137836b36" class="">
+</p><p id="19eec3d8-3254-80bb-8b2d-f4579e9f9ebb" class="">
+</p><p id="19eec3d8-3254-80b4-9d13-da65d918b2b5" class=""><strong>尝试做出改变</strong></p><p id="19eec3d8-3254-8079-ae7a-e568eee586d7" class=""><strong>&quot;To improve is to change; to be perfect is to change often.&quot;</strong></p><p id="19eec3d8-3254-80d0-b9cf-fce12af6de60" class=""><strong>--Winston Churchill</strong></p><p id="19eec3d8-3254-80fd-aa71-e58d2f7eb290" class="">我迫切想要做出改变，这种欲望空前的强烈。我想很大一部分因素在于wkx对于我的一种激励作用——我意识到如果想要实现先前所立的目标，改变自己势在必行，否则一切都将只是无稽之谈。我想，目前来看，我想要做出改变的几个方面大致包括生活环境、社交与活动参与、学习力、生活习惯四个方面。以下是改变这些内容的途径方法与改变后期许目标的展望。</p><p id="19eec3d8-3254-8091-8d84-e59f909a6dad" class="">生活环境的改变。这应当是我思虑已久的一项内容了，之前一直因为缺乏机会，难以实现，现在借着校区迁移的的机会，应该极力实现这一目标。目前所处的环境，氛围极差，缺乏活力与上进心。短期的居住尚可，压力较小，完全摆烂，身心放松。但长期居住，使人意志萎靡，精神颓废，状态堪忧。因而做出这样的选择，我认为是必要的——至少目前来看是完全正确的。现在已经谈妥的寝室，氛围应当不会很差（事实上，我不相信会有比本寝更糟糕的寝室了），或者讲，不要抱着太过于高的期许，基本上良好的氛围都是可以接受的。良好的寝室氛围将是我实现我的目标的坚实的后备力量。</p><p id="19eec3d8-3254-80ee-b52e-cc0539b437f9" class="">社交与活动的参与。事实上，一直以来我想要参与到更多发社交活动当中去，而非成为一个“肥宅”形象。参与到社交活动中，认识更多的人，建立良好的关系。功利也罢、友谊也好，总归是好的。关于活动的参与，我指的是参与到更多的类似于社会实践、志愿服务等活动当中去，这些活动将是难得的锻炼机会。在大学生活的下半程当中，我愿意参加到更多的这样的活动当中去。值得注意的是，社交的质量需要得到重视，即结识对自己有益的人，远离与自己格格不入的人，逐渐的净化社交圈子，不断的向高层次的方向迭代。社会能力的锻炼是大学生活重要组成部分。</p><p id="19eec3d8-3254-805f-b1ad-fa04cf89c64d" class="">学习力的提升。不得不承认，在前两年当中，因为各种因素导致的课业问题逐渐累加，尤其是专业知识领域，其所导致的问题也日渐凸显出来。我想目前来看，要在学习方面改变，应当从两大块内容着手：其一是找到一段时间（连续的、完整的、不被过多扰乱的），将前两年的所有专业课本，做一次回顾。第一遍不求多么仔细、认真，只希望实现一个把学习过的所有较为基础的临床课程形成系统的过程。由此形成完整的知识框架，系统的概念，我想在之后的进步当中将令我从中获益。其二是改变学习习惯，这一点主要针对的是课业学习，也就是平时上课的学习过程，总结回顾、形成系统永远是学习的良策。在大三开始的偏临床的课程的学习当中，又将有与之相适应的学习方法，应当勤加探索。提升自己的学习力，是做好大学中学生角色的最重要一环。</p><p id="19eec3d8-3254-80ee-bc99-fb3326eb48f4" class="">生活习惯的改变。事实上，这一点最初并不在我的考虑之列。然而，今天机能学实验课上，有一个测量血压的实验内容，我尝试去做，测出的血压竟然100/150。除去可能因为操作不规范等原因造成的偏差，这也是不可接受的——事实上，测血压这块我就没低过……虽然不排除是遗传因素导致的高血压（毕竟我父母都有高血压，讲遗传原因也只能说是可能吧），但这令我感到极为担忧。我意识到我长期以来忽视自己的健康状况，这一点令我感到不安。我不得不正视我现在所面临的健康问题，包括但不限于饮食过度导致肥胖、血压偏高、缺乏运动以及部分心理问题包括焦虑甚至感到轻度抑郁。针对目前所面临的健康问题，或许我应该将一个健身计划提上日程，包括减肥以及心理建设。</p><p id="19eec3d8-3254-80a6-b5dd-df7c8313f6ac" class="">如上四方面，是我必须要做出改变的内容。在这些方面强迫自己做出改变 ，走出舒适区或者逃离摆烂区，对于实现我的目标是很重要的开端，也是我对一个新的自己的挑战。祝顺利。</p><p id="19eec3d8-3254-807c-b64a-ea5664cf4bba" class="">2023年5月27日星期六</p><p id="19eec3d8-3254-802b-8c70-c4895d17cb2d" class="">
+</p><p id="19eec3d8-3254-802d-8403-dfdf10171af2" class="">
+</p><p id="19eec3d8-3254-802e-8227-c30de0072f13" class=""><strong>2023秋季学期的小结与下学期展望</strong></p><p id="19eec3d8-3254-8067-b4f9-d731ea47b733" class="">说来也快，倏忽之间一个学期就结束了，不过即便现在看起来轻轻松松，却不能否认在这半年里你经历了非常多的事情，有些可谓是非常糟糕，不过有些也是非常让人高兴的存在。下面从学习与生活两方面对本学期略做总结，并在此基础上对接下来的一个学习做出展望。<br/>就学习而言，这学期来看，自认为是做的不错的，这里的不错指的是总的学习量是蛮高的，但是你面临着一个严重的问题，就是学习效率的低下。这里再一次搬出那个公式：学习量=效率乘以时间，在这学期里，你把时间提到了接近最高，以此来弥补在效率方面的严重不足，虽然结果达到了要求，但这种低效率的做事方法是我极度抵触的。刚刚结束的期末考试检验了我这个学期的学习成果，算不得完美，但也要比前几个学期要好很多，虽然有一些细小的遗憾，但不足以为之感到愧疚。这是好的，在我看来，进步就是好的，哪怕慢一些，步子小一些。<br/>生活上来看，本学期面临了一场近几年来最严重的人际危机，不过好在最后解决掉了，这就足够让人高兴得了。目前的情况尚还算良好，保持之即可。<br/>虽然我把学习与生活分成两部分来考量评价，但二者之间是息息相关的，正是因为生活上出现了问题，导致效率急剧下降，并由此导致只能通过延长时间来进行弥补。这是惨痛的教训，是我们最初考虑调换寝室时考虑不周，匆促决定的恶果，某种意义上来说这是你自食其果，不值得同情！！！<br/>不论如何，现在结束了这令人悲喜交织的一个学期，面对即将到来的崭新的一个学期，从以往中吸取教训，总结凝练并将之继续运用到新的一年的学习工作安排当中，显得尤为重要。基于此对新的一年做出展望：<br/></p><p id="19eec3d8-3254-80d5-8464-f7d6494d7f0a" class="">做出决定时一定要考虑再三，尤其对其可能导致的结果要做充分的评估。这是在吸取教训的基础之上的出的结论之一。<br/>提升做事效率，要保质也要保量，这两个衡量工作成果的指标不能偏废。<br/>完善修正在处理人际关系问题上的一些细节问题，包括过于偏激的想法与观点，坚持与人为善，但不等同于时刻退让。应该寻找二者间的较好平衡。<br/>继续保持计划行事的习惯，但应该对计划的内容做出一些修正，不必要时时刻刻事无巨细，反而显得杂乱，至于何为细，仍然是需要探索琢磨的。<br/>继续保持对时间的掌控与充分利用，坚持劳逸结合，功夫下在平时而不是在期末周搞突击。相信细水长流才是治学之道，尤其对于学习医学。<br/></p><p id="19eec3d8-3254-80a1-a0d2-c32c9e083bb9" class="">新的学期就要来临，勇敢的去面对吧！<br/>2024年1月12日星期五<br/>家中<br/></p><p id="19eec3d8-3254-8003-9b2a-da88d2cc4bb1" class="">
+</p><p id="19eec3d8-3254-801f-a9aa-fb58716eb146" class=""><strong>2023年年度小结与展望</strong></p><p id="19eec3d8-3254-803b-aa7c-ebb5648e774a" class="">2023年过的不容易，各方面都是，学习、生活与情感。<br/>希望新的一年能够好起来！<br/>2024年1月12日<br/>家中<br/></p><p id="19eec3d8-3254-80b7-9c22-c042b8ec30e3" class="">
+</p><p id="19eec3d8-3254-8047-ad87-d115d2435fa3" class="">
+</p><p id="19eec3d8-3254-80e7-9814-e7888d3e00e1" class=""><strong>2023-2024第二学期期末小结</strong></p><p id="19eec3d8-3254-80b5-a401-ef5d3598ef67" class="">2023-2024学年第二学期，也就是大三下学期的学习生活即将在下周见习后结束。这一年当中付出了许多努力，当然也有许多收获，原本定下的目标也有实现的可能——事实上，实现不了也不会是一件多么令人伤心的事情，我想要的目的基本上达到了。</p><p id="19eec3d8-3254-8017-a851-f54321009287" class="">这一年当中，学习了许多临床基础课程，理论方面掌握的不敢说多么通透，只能用凑活吧，因为许多内容在应付完考试之后都忘记的差不多了，这有一些让人感到不安，因为在这几天的见习当中提到的许多知识都有些生疏，或者说尚且不能够很好的把它迁移到临床的环境当中去加以应用，这一点应该在之后的学习当中，尤其是见习当中加以注意。同时我发现一个日益严重的问题，是我不能够使用专业的表达去描述许多情景，这可能与我之前所追求的理解性的学习有一定的关联，使用专业术语去描述所遇到的问题是很重要的一项技能吧，这或许也算是医生的某种素养？总之我感觉这一点应该引起我之后的注意，多加阅读专业的内容或许是不错的方法，可以尝试之。概括一下，就是在学习的时候要理解性的去学习，实际的应用是加强自己理解的重要方式。在理解的基础之上，要学会使用专业的方法与方法去描述所见到的问题、情景等等，这会是我在接下来学习当中注意培养的能力之一。</p><p id="19eec3d8-3254-8054-aed3-d9ea7fbdfa1e" class="">越往后面学习，越发现基础知识的重要性，尤其像是解剖、生理等等这些，应该引起足够的重视，甚至花费一段时间去重新温习这一部分内容。</p><p id="19eec3d8-3254-80bb-874a-f65810353a61" class="">在生活方面，社交圈还在逐渐的扩张，我也不知道这算是一件好事与否，但维持友好的交际氛围是必要的，这一点毫无疑问。社交技巧也需要逐渐的加以锻炼，需要明确的是，必要的边界感还是要保留。</p><p id="19eec3d8-3254-8057-8644-e0752ef1ef43" class="">在情感方面，目前仍然没有太多的想法，还是专注于提升自己，在这个我稀里糊涂闯进来的圈子里立稳脚跟再说吧。</p><p id="19eec3d8-3254-8073-9586-edec1a588eac" class="">关于接下来最后一学年的在校学习，我想重心还是在新知识学习上，除此之外，需要尤其的强调实际应用的重要性，因为我意识到学与用已经严重的脱节，这是很严重的问题。同时应该注意基础知识的回顾，尤其是对于我所立志于从事的外科而言，解剖学尤其需要去回顾。</p><p id="19eec3d8-3254-8059-855d-e323a1682eaf" class="">此外值得一提的是，临床科研一直被我所忽视，我发现这也是一个逐渐凸显出来的短板。姑且剖开临床不谈，科研训练我也接受的很少，所参加的大创项目也是虎头蛇尾，草草结项了事，并没有达到训练科研能力的实际目的。目前已经错过了时机，没有办法，只能从别的地方发力，思来想去，或许锻炼文献阅读能力（英文能力）与一些医学科研常用软件的使用能力是比较不错的选择，可以从这里发力。</p><p id="19eec3d8-3254-80b3-95dc-cf7845ecf33e" class="">最后一点，也是非常重要的一点，是英文水平的提升。虽然六级题目确实非常……应试，但是这确实算是比较“实惠”的英文水平证书了，应该狠下心好好的学习英语，把六级的分数搞上去。</p><p id="19eec3d8-3254-803b-86cf-e7fec6078710" class="">在校学习不求掌握多少高深的原理机制，而是要去挖掘人体医学中的变与不变，摸索所谓的“底层逻辑”，打好基础后，去了解那些稍复杂的内容作为拓展，为真正进入临床做好准备以及将来职业发展铺路垫石。</p><p id="19eec3d8-3254-80f7-bef1-dfae94da3764" class="">2024年7月5日星期五</p><p id="19eec3d8-3254-8000-9b26-e03b8dd1f9df" class="">八里台 寝室</p><p id="19eec3d8-3254-809d-9799-d70f46e64b89" class="">
+</p><p id="19eec3d8-3254-80c6-9ea2-d1f2aa848289" class="">
+</p><p id="19eec3d8-3254-80c3-8ff6-fb59fb53d93a" class=""><strong>近来的情感问题</strong></p><p id="19eec3d8-3254-8056-be90-d94e36175976" class=""><strong>说它是人的欲求也罢，说它是生物本能也罢，到了一定的时期，情感是每个人必须要面对的一个问题，没人能够逃得了这一茬。</strong></p><p id="19eec3d8-3254-802b-9ab5-d143303fabcb" class=""><strong>于我当然也不例外，回想这二十年，要我讲从未曾对哪一个女孩心动那是假的，但真正动过心的只有一个，却因为初次学着去表达情感方法失当，而弄得自己伤痕累累，花了好几年才逐渐的修复自己的伤口，那是多么令人难受的感觉，我甚至现在都不敢去太多的回想那一段经历，因为每当我尝试揭开伤口，心口就会感到一阵难受。</strong></p><p id="19eec3d8-3254-8008-a7eb-d210079302ec" class=""><strong>现如今挑明了、斩断了那段情感，本希望能让我轻装再出发，却发现我从这段经历里面好像什么都没有学会。现在看到那些追求我的女孩，我不知道该如何向她们善意的表达回绝；同样的，看到那让我心为之颤动的人，我也不知该如何去做，像极了当初，只不过当初还敢去表达，如今却连表达的勇气都不再有——与其撕破脸两头尴尬，还不如就维持表面客客气气，当个普通朋友也没有那么差劲。</strong></p><p id="19eec3d8-3254-8046-b11b-fe4e19ce21d9" class=""><strong>古往今来多少人被这一个情字难倒！</strong></p><p id="19eec3d8-3254-80b7-ad4d-e1263def5172" class="">
+</p><p id="19eec3d8-3254-80e4-917a-ccd3e64b3b09" class="">2024年夏季之后的内容，都已经被记录于此Notion账号本文档下，故不在重复。</p><hr id="19eec3d8-3254-801a-8413-e0b919711886"/><p id="19eec3d8-3254-80f5-a319-c574501bb9d8" class="">第三十五章</p><p id="19eec3d8-3254-80de-9015-c1b5d3d7329a" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span><!-- hexo injector body_end start --><script async src="/js/ali_font.js"></script><script data-pjax>
+  function butterfly_clock_anzhiyu_injector_config(){
+    var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+    var item_html = '<div class="card-widget card-clock"><div class="card-glass"><div class="card-background"><div class="card-content"><div id="hexo_electric_clock"><img class="entered loading" id="card-clock-loading" src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/loading.gif" style="height: 120px; width: 100%;" data-ll-status="loading"/></div></div></div></div></div>';
+    console.log('已挂载butterfly_clock_anzhiyu')
+    if(parent_div_git) {
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  }
+  var elist = 'null'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var qweather_key = 'b16a1fa0e63c46a4b8f28abfb06ae3fe';
+  var gaud_map_key = 'e2b04289e870b005374ee030148d64fd&s=rsv3';
+  var baidu_ak_key = 'undefined';
+  var flag = 0;
+  var clock_rectangle = '117.201561,39.085259';
+  var clock_default_rectangle_enable = 'true';
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_clock_anzhiyu_injector_config();
+  }
+  </script><script src="https://widget.qweather.net/simple/static/js/he-simple-common.js?v=2.0"></script><script data-pjax src="https://cdn.cbd.int/hexo-butterfly-clock-anzhiyu@1.1.6/lib/clock.min.js"></script><!-- hexo injector body_end end --></body></html></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/uploads/aaa.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">げかいし 卓木</div><div class="author-info-description">Nothing just happens, it's all part of a plan.</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" href="mailto:jennyblack53@proton.me"><i class="fas fa-envelope"></i><span>Contact Me</span></a><div class="card-info-social-icons"><a class="social-icon" href="https://github.com/xxxxx" target="_blank" title="Github"><i class="fab fa-github" style="color: #hdhfbb;"></i></a><a class="social-icon" href="mailto:xxxxxx@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #000000;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2025/02/27/Notion%E8%BD%AC%E8%BD%BD/" target="blank" title="Notion转载"><img src="/uploads/001.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Notion转载"/></a><div class="content"><a class="title" href="/2025/02/27/Notion%E8%BD%AC%E8%BD%BD/" target="blank" title="Notion转载">Notion转载</a><time datetime="2025-02-27T02:45:08.000Z" title="发表于 2025-02-27 10:45:08">2025-02-27</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/02/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" target="blank" title="我的第一篇博客"><img src="/uploads/002.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="我的第一篇博客"/></a><div class="content"><a class="title" href="/2025/02/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" target="blank" title="我的第一篇博客">我的第一篇博客</a><time datetime="2025-02-25T11:25:17.000Z" title="发表于 2025-02-25 19:25:17">2025-02-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/02/25/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/" target="blank" title="基本操作记录"><img src="/uploads/008.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="基本操作记录"/></a><div class="content"><a class="title" href="/2025/02/25/%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C%E8%AE%B0%E5%BD%95/" target="blank" title="基本操作记录">基本操作记录</a><time datetime="2025-02-25T11:21:55.000Z" title="发表于 2025-02-25 19:21:55">2025-02-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/02/25/%E5%9F%BA%E6%9C%AC%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/" target="blank" title="文章模板"><img src="/uploads/009.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="文章模板"/></a><div class="content"><a class="title" href="/2025/02/25/%E5%9F%BA%E6%9C%AC%E6%96%87%E7%AB%A0%E6%A8%A1%E6%9D%BF/" target="blank" title="文章模板">文章模板</a><time datetime="2025-02-25T02:00:00.000Z" title="发表于 2025-02-25 10:00:00">2025-02-25</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2025/02/25/%E5%9F%BA%E6%9C%AC%E5%86%85%E5%AE%B9/" target="blank" title="博客文章基本内容"><img src="/uploads/003.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="博客文章基本内容"/></a><div class="content"><a class="title" href="/2025/02/25/%E5%9F%BA%E6%9C%AC%E5%86%85%E5%AE%B9/" target="blank" title="博客文章基本内容">博客文章基本内容</a><time datetime="2025-02-24T16:00:00.000Z" title="发表于 2025-02-25 00:00:00">2025-02-25</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Notion/"><span class="card-category-list-name">Notion</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%99%E7%A8%8B/"><span class="card-category-list-name">教程</span><span class="card-category-list-count">1</span></a><ul class="card-category-list child"><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%95%99%E7%A8%8B/%E6%A8%A1%E6%9D%BF/"><span class="card-category-list-name">模板</span><span class="card-category-list-count">1</span></a></li></ul></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E6%A8%A1%E6%9D%BF/" style="font-size: 1.5em; color: #99a9bf">模板</a> <a href="/tags/%E8%BD%AC%E8%BD%BD/" style="font-size: 1.1em; color: #999">转载</a> <a href="/tags/%E5%9B%9E%E9%A1%BE/" style="font-size: 1.1em; color: #999">回顾</a> <a href="/tags/%E6%84%8F%E4%B9%89/" style="font-size: 1.1em; color: #999">意义</a> <a href="/tags/Notion/" style="font-size: 1.1em; color: #999">Notion</a> <a href="/tags/%E6%A8%A1%E6%9D%BF%EF%BC%8C%E6%95%99%E7%A8%8B/" style="font-size: 1.5em; color: #99a9bf">模板，教程</a> <a href="/tags/%E8%AE%B0%E5%BD%95/" style="font-size: 1.1em; color: #999">记录</a> <a href="/tags/%E6%80%9D%E8%80%83/" style="font-size: 1.1em; color: #999">思考</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/02/">
+            <span class="card-archive-list-date">
+              二月 2025
+            </span>
+            <span class="card-archive-list-count">6</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">6</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-02-27T05:06:54.293Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer" style="background-image: url(/uploads/004.jpg);"><div id="footer-wrap"><div class="copyright">&copy;2025 By げかいし 卓木</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 7.3.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.3.3</a></div><div class="footer_custom_text">Hi, welcome to my <a target="_blank" rel="noopener" href="https://butterfly.js.org/">blog</a>!</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script src="/styles/fish.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-nest.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/metingjs/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">search</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="text-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="Search for Posts" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>

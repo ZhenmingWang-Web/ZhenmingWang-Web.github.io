@@ -4,11 +4,42 @@
   
     
     <entry>
+      <title>Notion转载</title>
+      <link href="/2025/02/27/Notion%E8%BD%AC%E8%BD%BD/"/>
+      <url>/2025/02/27/Notion%E8%BD%AC%E8%BD%BD/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>Please wait for a moment……</p><p><iframe src="/notion/Notion.html" width="100%" height="500px"></iframe><br><a href="/notion/Notion.html" target="_blank">点击此处在新页面完全打开</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Notion </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Notion </tag>
+            
+            <tag> 转载 </tag>
+            
+            <tag> 思考 </tag>
+            
+            <tag> 回顾 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的第一篇博客</title>
       <link href="/2025/02/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
       <url>/2025/02/25/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="博客建站起源"><a href="#博客建站起源" class="headerlink" title="博客建站起源"></a>博客建站起源</h1><p>说起来也是非常奇怪的一件事情，最近迷上了搭建网站，于是我在互联网上各大教程之间来回穿梭，跌跌撞撞也终于算是把我自己的这一个博客网站搭建好了。<br>我使用的时Hexo + Github Page的模式，在各路大神看来或许是小打小闹，几分钟就能够弄好的事，但是我花费了将近整整一个周，才把自己修修改改的代码顺畅的跑起来。<br>怎么去说呢，对于我这样一个编程小白来说，看见执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><br>之后自己的代码顺顺利利的跑下来，没有报错，那一刻的喜悦真的难以描述（原谅我词穷了哈哈哈）。<br>总的来说就是“过程是艰辛的，结果是很好的”。<br>总之，很高心成功的搭建出了自己的博客网站。本来想着在namelis购买一个域名，但是又怕自己是三天热乎劲，过几天又不在用这个，于是暂缓了域名购买的计划，后续如果真的有需求，是肯定会装备的嘿嘿😀</p><h1 id="这个博客写些啥"><a href="#这个博客写些啥" class="headerlink" title="这个博客写些啥"></a>这个博客写些啥</h1><p>这个我也纠结了，emmmmm，得有一下午吧……<br>哈哈哈<br>决定把这个博客用来记录我自己的日常的一些想法，也没什么高深的玩意，就是平日里的脑海里的一些想法，也许少些章法套路，多些碎碎念吧。<br>如果有缘的你看到了我的博客，希望它能为你可能沉闷无聊的生活带来一点有趣的东西，毕竟生活在这样一个时代，每个人都肩负太多……<br>太累了。<br>就这样。<br>                                                                                         2025年2月26日<br>                                                                                                  寝室</p>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="博客建站起源"><a href="#博客建站起源" class="headerlink" title="博客建站起源"></a>博客建站起源</h1><p>说起来也是非常奇怪的一件事情，最近迷上了搭建网站，于是我在互联网上各大教程之间来回穿梭，跌跌撞撞也终于算是把我自己的这一个博客网站搭建好了。<br>我使用的时Hexo + Github Page的模式，在各路大神看来或许是小打小闹，几分钟就能够弄好的事，但是我花费了将近整整一个周，才把自己修修改改的代码顺畅的跑起来。<br>怎么去说呢，对于我这样一个编程小白来说，看见执行<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><br>之后自己的代码顺顺利利的跑下来，没有报错，那一刻的喜悦真的难以描述（原谅我词穷了哈哈哈）。<br>总的来说就是“过程是艰辛的，结果是很好的”。<br>总之，很高心成功的搭建出了自己的博客网站。本来想着在namelis购买一个域名，但是又怕自己是三天热乎劲，过几天又不在用这个，于是暂缓了域名购买的计划，后续如果真的有需求，是肯定会装备的嘿嘿😀</p><h1 id="这个博客写些啥"><a href="#这个博客写些啥" class="headerlink" title="这个博客写些啥"></a>这个博客写些啥</h1><p>这个我也纠结了，emmmmm，得有一下午吧……<br>哈哈哈<br>决定把这个博客用来记录我自己的日常的一些想法，也没什么高深的玩意，就是平日里的脑海里的一些想法，也许少些章法套路，多些碎碎念吧。<br>如果有缘的你看到了我的博客，希望它能为你可能沉闷无聊的生活带来一点有趣的东西，毕竟生活在这样一个时代，每个人都肩负太多……<br>太累了。<br>就这样。<br>2025年2月26日<br>寝室</p>]]></content>
       
       
       
